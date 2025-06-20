@@ -1,0 +1,58 @@
+2025-06-19 23:01:56,949 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_19_06_2025_23_01_56\log_19_06_2025_23_01_56.log ---
+2025-06-19 23:01:56,950 - base_test.py:[33] - [INFO] - --- Starting test: test_successful_login ---
+2025-06-19 23:01:56,953 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 23:01:56,953 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-19 23:01:58,756 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-19 23:01:58,976 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 23:01:58,995 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-19 23:01:58,996 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-19 23:01:59,062 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 23:01:59,134 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 23:01:59,210 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 23:01:59,226 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-19 23:01:59,230 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-19 23:01:59,232 - base_test.py:[61] - [INFO] - --- Finished test: test_successful_login ---
+2025-06-19 23:02:01,577 - base_test.py:[33] - [INFO] - --- Starting test: test_end_to_end_purchase_happy_path ---
+2025-06-19 23:02:01,579 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 23:02:01,580 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-19 23:02:02,915 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-19 23:02:03,147 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 23:02:03,147 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-19 23:02:03,222 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 23:02:03,292 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 23:02:03,372 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 23:02:03,388 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'title')
+2025-06-19 23:02:03,407 - base_page.py:[84] - [INFO] - Retrieved text 'Products' from element: ('class name', 'title')
+2025-06-19 23:02:03,407 - test_smoke_journey.py:[48] - [INFO] - Login successful and inventory page is displayed.
+2025-06-19 23:02:03,451 - base_page.py:[38] - [INFO] - Successfully clicked element: ('xpath', "//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button")
+2025-06-19 23:02:03,452 - inventory_page.py:[42] - [INFO] - Clicked 'Add to Cart' for item: Sauce Labs Backpack
+2025-06-19 23:02:03,452 - inventory_page.py:[56] - [INFO] - Waiting for cart badge to show '1'...
+2025-06-19 23:02:03,463 - inventory_page.py:[60] - [INFO] - Cart badge updated correctly.
+2025-06-19 23:02:03,463 - test_smoke_journey.py:[53] - [INFO] - Item added to cart and badge count is correct.
+2025-06-19 23:02:03,509 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'shopping_cart_container')
+2025-06-19 23:02:03,523 - base_page.py:[70] - [INFO] - Element is visible: ('xpath', "//div[@class='inventory_item_name' and text()='Sauce Labs Backpack']")
+2025-06-19 23:02:03,523 - test_smoke_journey.py:[58] - [INFO] - Successfully navigated to cart and verified the item.
+2025-06-19 23:02:03,580 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'checkout')
+2025-06-19 23:02:03,581 - cart_page.py:[36] - [INFO] - Clicked the Checkout button.
+2025-06-19 23:02:03,638 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'first-name')
+2025-06-19 23:02:03,689 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'last-name')
+2025-06-19 23:02:03,737 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'postal-code')
+2025-06-19 23:02:03,737 - checkout_step_one_page.py:[26] - [INFO] - Filled checkout information for Test User.
+2025-06-19 23:02:03,796 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'continue')
+2025-06-19 23:02:03,796 - checkout_step_one_page.py:[31] - [INFO] - Clicked the Continue button on checkout page.
+2025-06-19 23:02:03,796 - test_smoke_journey.py:[64] - [INFO] - Filled checkout info and continued to the overview page.
+2025-06-19 23:02:03,807 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'title')
+2025-06-19 23:02:03,820 - base_page.py:[84] - [INFO] - Retrieved text 'Checkout: Overview' from element: ('class name', 'title')
+2025-06-19 23:02:03,864 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'finish')
+2025-06-19 23:02:03,865 - checkout_step_two_page.py:[26] - [INFO] - Clicked the Finish button.
+2025-06-19 23:02:03,865 - test_smoke_journey.py:[69] - [INFO] - Verified overview and finished the purchase.
+2025-06-19 23:02:03,878 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'complete-header')
+2025-06-19 23:02:03,890 - base_page.py:[84] - [INFO] - Retrieved text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-06-19 23:02:03,890 - test_smoke_journey.py:[74] - [INFO] - Order confirmed with message: Thank you for your order!
+2025-06-19 23:02:03,932 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'react-burger-menu-btn')
+2025-06-19 23:02:04,508 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'logout_sidebar_link')
+2025-06-19 23:02:04,508 - inventory_page.py:[75] - [INFO] - User logged out successfully.
+2025-06-19 23:02:04,519 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'login-button')
+2025-06-19 23:02:04,519 - test_smoke_journey.py:[80] - [INFO] - Logout was successful.
+2025-06-19 23:02:04,523 - base_test.py:[61] - [INFO] - --- Finished test: test_end_to_end_purchase_happy_path ---
+2025-06-19 23:02:06,848 - conftest.py:[54] - [INFO] - --- Test run finished. ---

@@ -1,0 +1,20 @@
+2025-06-19 20:06:06,695 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_19_06_2025_20_06_06\log_19_06_2025_20_06_06.log ---
+2025-06-19 20:06:06,695 - base_test.py:[33] - [INFO] - --- Starting test: test_end_to_end_purchase_happy_path ---
+2025-06-19 20:06:06,698 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 20:06:06,698 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-19 20:06:08,456 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-19 20:06:08,684 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 20:06:08,685 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-19 20:06:08,776 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 20:06:08,850 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 20:06:08,936 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 20:06:08,953 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'title')
+2025-06-19 20:06:08,972 - base_page.py:[84] - [INFO] - Retrieved text 'Products' from element: ('class name', 'title')
+2025-06-19 20:06:08,972 - test_smoke_journey.py:[43] - [INFO] - Login successful and inventory page is displayed.
+2025-06-19 20:06:12,031 - base_page.py:[38] - [INFO] - Successfully clicked element: ('xpath', "//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button")
+2025-06-19 20:06:12,031 - inventory_page.py:[41] - [INFO] - Clicked 'Add to Cart' for item: Sauce Labs Backpack
+2025-06-19 20:06:22,613 - base_page.py:[73] - [INFO] - Element is not visible within 2s: ('class name', 'shopping_cart_badge')
+2025-06-19 20:06:22,686 - base_test.py:[113] - [ERROR] - Test 'test_end_to_end_purchase_happy_path' failed. Capturing Allure screenshot.
+2025-06-19 20:06:23,820 - base_test.py:[126] - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_end_to_end_purchase_happy_path_20250619_200622.png
+2025-06-19 20:06:23,821 - base_test.py:[61] - [INFO] - --- Finished test: test_end_to_end_purchase_happy_path ---
+2025-06-19 20:06:26,133 - conftest.py:[54] - [INFO] - --- Test run finished. ---

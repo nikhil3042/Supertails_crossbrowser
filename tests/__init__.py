@@ -1,0 +1,3 @@
+"""
+Test cases package initialization.
+""" 

@@ -1,0 +1,23 @@
+2025-06-19 11:10:24,289 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_19_06_2025_11_10_24\log_19_06_2025_11_10_24.log ---
+2025-06-19 11:10:24,290 - base_test.py:[34] - [INFO] - --- Starting test: test_pass_scenario ---
+2025-06-19 11:10:24,307 - base_test.py:[78] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 11:10:27,852 - base_test.py:[97] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-19 11:10:28,014 - test_report_statuses.py:[22] - [INFO] - Navigating to https://www.google.com
+2025-06-19 11:10:30,020 - test_report_statuses.py:[25] - [INFO] - Asserting that the title contains 'Google'
+2025-06-19 11:10:30,056 - test_report_statuses.py:[28] - [INFO] - Pass scenario test completed successfully.
+2025-06-19 11:10:30,060 - base_test.py:[70] - [INFO] - --- Finished test: test_pass_scenario ---
+2025-06-19 11:10:32,659 - base_test.py:[34] - [INFO] - --- Starting test: test_fail_scenario ---
+2025-06-19 11:10:32,662 - base_test.py:[78] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 11:10:34,684 - base_test.py:[97] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-19 11:10:34,919 - test_report_statuses.py:[38] - [INFO] - Navigating to https://www.google.com
+2025-06-19 11:10:35,919 - test_report_statuses.py:[41] - [ERROR] - This assertion will fail, triggering failure evidence capture.
+2025-06-19 11:10:37,228 - base_test.py:[103] - [ERROR] - Test 'test_fail_scenario' failed. Capturing Allure screenshot.
+2025-06-19 11:10:37,228 - base_test.py:[113] - [INFO] - Waiting for 2 seconds before taking screenshot...
+2025-06-19 11:10:39,342 - base_test.py:[119] - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_fail_scenario_20250619_111037.png
+2025-06-19 11:10:39,343 - base_test.py:[70] - [INFO] - --- Finished test: test_fail_scenario ---
+2025-06-19 11:10:41,888 - base_test.py:[34] - [INFO] - --- Starting test: test_skip_scenario ---
+2025-06-19 11:10:41,891 - base_test.py:[78] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 11:10:44,193 - base_test.py:[97] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-19 11:10:44,284 - test_report_statuses.py:[51] - [WARNING] - This test is being intentionally skipped.
+2025-06-19 11:10:44,330 - base_test.py:[70] - [INFO] - --- Finished test: test_skip_scenario ---
+2025-06-19 11:10:47,037 - conftest.py:[54] - [INFO] - --- Test run finished. ---

@@ -1,0 +1,7 @@
+2025-06-17 16:03:25,720 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_17_06_2025_16_03_25\log_17_06_2025_16_03_25.log ---
+2025-06-17 16:03:25,720 - base_test.py:[27] - [INFO] - --- Starting test: test_skip_scenario ---
+2025-06-17 16:03:25,722 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 16:03:27,273 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-17 16:03:27,303 - test_report_statuses.py:[51] - [WARNING] - This test is being intentionally skipped.
+2025-06-17 16:03:27,306 - base_test.py:[47] - [INFO] - --- Finished test: test_skip_scenario ---
+2025-06-17 16:03:29,562 - conftest.py:[91] - [INFO] - --- Test run finished. ---

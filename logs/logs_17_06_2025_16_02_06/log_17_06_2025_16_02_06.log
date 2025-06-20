@@ -1,0 +1,9 @@
+2025-06-17 16:02:06,072 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_17_06_2025_16_02_06\log_17_06_2025_16_02_06.log ---
+2025-06-17 16:02:06,073 - base_test.py:[27] - [INFO] - --- Starting test: test_pass_scenario ---
+2025-06-17 16:02:06,074 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 16:02:09,660 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-17 16:02:09,746 - test_report_statuses.py:[22] - [INFO] - Navigating to https://www.google.com
+2025-06-17 16:02:10,405 - test_report_statuses.py:[25] - [INFO] - Asserting that the title contains 'Google'
+2025-06-17 16:02:10,413 - test_report_statuses.py:[28] - [INFO] - Pass scenario test completed successfully.
+2025-06-17 16:02:10,415 - base_test.py:[47] - [INFO] - --- Finished test: test_pass_scenario ---
+2025-06-17 16:02:12,706 - conftest.py:[91] - [INFO] - --- Test run finished. ---

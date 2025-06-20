@@ -1,0 +1,27 @@
+2025-06-17 16:15:46,412 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_17_06_2025_16_15_46\log_17_06_2025_16_15_46.log ---
+2025-06-17 16:15:46,427 - test_logging_only.py:[17] - [INFO] - This is an informational message.
+2025-06-17 16:15:46,428 - test_logging_only.py:[18] - [DEBUG] - This is a detailed debug message for tracing.
+2025-06-17 16:15:46,428 - test_logging_only.py:[19] - [WARNING] - This is a warning message about a potential issue.
+2025-06-17 16:15:46,428 - test_logging_only.py:[20] - [ERROR] - This is an error message indicating something failed.
+2025-06-17 16:15:46,428 - test_logging_only.py:[21] - [CRITICAL] - This is a critical message for a major failure.
+2025-06-17 16:15:46,641 - base_test.py:[27] - [INFO] - --- Starting test: test_pass_scenario ---
+2025-06-17 16:15:46,642 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 16:15:48,250 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-17 16:15:48,300 - test_report_statuses.py:[22] - [INFO] - Navigating to https://www.google.com
+2025-06-17 16:15:49,780 - test_report_statuses.py:[25] - [INFO] - Asserting that the title contains 'Google'
+2025-06-17 16:15:49,791 - test_report_statuses.py:[28] - [INFO] - Pass scenario test completed successfully.
+2025-06-17 16:15:49,794 - base_test.py:[47] - [INFO] - --- Finished test: test_pass_scenario ---
+2025-06-17 16:15:52,070 - base_test.py:[27] - [INFO] - --- Starting test: test_fail_scenario ---
+2025-06-17 16:15:52,072 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 16:15:53,617 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-17 16:15:53,677 - test_report_statuses.py:[38] - [INFO] - Navigating to https://www.google.com
+2025-06-17 16:15:54,395 - test_report_statuses.py:[41] - [ERROR] - This assertion will fail, triggering failure evidence capture.
+2025-06-17 16:15:54,414 - base_test.py:[96] - [ERROR] - Test 'test_fail_scenario' failed. Capturing failure evidence.
+2025-06-17 16:15:54,527 - base_test.py:[104] - [ERROR] - Failed to capture screenshot: [Errno 2] No such file or directory: 'reports/screenshots/failed_test_fail_scenario.png'
+2025-06-17 16:15:54,528 - base_test.py:[47] - [INFO] - --- Finished test: test_fail_scenario ---
+2025-06-17 16:15:56,784 - base_test.py:[27] - [INFO] - --- Starting test: test_skip_scenario ---
+2025-06-17 16:15:56,786 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 16:15:58,313 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-17 16:15:58,360 - test_report_statuses.py:[51] - [WARNING] - This test is being intentionally skipped.
+2025-06-17 16:15:58,379 - base_test.py:[47] - [INFO] - --- Finished test: test_skip_scenario ---
+2025-06-17 16:16:00,640 - conftest.py:[91] - [INFO] - --- Test run finished. ---

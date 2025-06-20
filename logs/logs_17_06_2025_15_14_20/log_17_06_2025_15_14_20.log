@@ -1,0 +1,7 @@
+2025-06-17 15:14:20,748 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_17_06_2025_15_14_20\log_17_06_2025_15_14_20.log ---
+2025-06-17 15:14:20,750 - test_logging_only.py:[17] - [INFO] - This is an informational message.
+2025-06-17 15:14:20,750 - test_logging_only.py:[18] - [DEBUG] - This is a detailed debug message for tracing.
+2025-06-17 15:14:20,750 - test_logging_only.py:[19] - [WARNING] - This is a warning message about a potential issue.
+2025-06-17 15:14:20,750 - test_logging_only.py:[20] - [ERROR] - This is an error message indicating something failed.
+2025-06-17 15:14:20,750 - test_logging_only.py:[21] - [CRITICAL] - This is a critical message for a major failure.
+2025-06-17 15:14:20,752 - conftest.py:[91] - [INFO] - --- Test run finished. ---

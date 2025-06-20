@@ -1,0 +1,27 @@
+2025-06-18 10:34:23,934 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_18_06_2025_10_34_23\log_18_06_2025_10_34_23.log ---
+2025-06-18 10:34:23,934 - base_test.py:[28] - [INFO] - --- Starting test: test_successful_login ---
+2025-06-18 10:34:23,936 - base_test.py:[56] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 10:34:25,522 - base_test.py:[79] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 10:34:25,925 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-18 10:34:25,954 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-18 10:34:25,956 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-18 10:34:26,086 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-18 10:34:26,188 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-18 10:34:26,318 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-18 10:34:26,337 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-18 10:34:26,342 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-18 10:34:26,346 - base_test.py:[48] - [INFO] - --- Finished test: test_successful_login ---
+2025-06-18 10:34:28,664 - base_test.py:[28] - [INFO] - --- Starting test: test_invalid_login ---
+2025-06-18 10:34:28,668 - base_test.py:[56] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 10:34:30,182 - base_test.py:[79] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 10:34:30,595 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-18 10:34:30,619 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-18 10:34:30,620 - login_page.py:[24] - [INFO] - Attempting to log in with username: invalid_user
+2025-06-18 10:34:30,727 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-18 10:34:30,848 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-18 10:34:30,957 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-18 10:34:30,973 - base_page.py:[70] - [INFO] - Element is visible: ('css selector', "h3[data-test='error']")
+2025-06-18 10:34:30,995 - base_page.py:[84] - [INFO] - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: ('css selector', "h3[data-test='error']")
+2025-06-18 10:34:41,546 - base_page.py:[73] - [INFO] - Element is not visible within 5s: ('class name', 'app_logo')
+2025-06-18 10:34:41,548 - base_test.py:[48] - [INFO] - --- Finished test: test_invalid_login ---
+2025-06-18 10:34:43,886 - conftest.py:[91] - [INFO] - --- Test run finished. ---

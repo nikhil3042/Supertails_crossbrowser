@@ -1,0 +1,19 @@
+2025-06-19 19:19:44,743 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_19_06_2025_19_19_44\log_19_06_2025_19_19_44.log ---
+2025-06-19 19:19:44,743 - base_test.py:[34] - [INFO] - --- Starting test: test_end_to_end_purchase_happy_path ---
+2025-06-19 19:19:44,746 - base_test.py:[78] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 19:19:46,233 - base_test.py:[97] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-19 19:19:47,525 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 19:19:47,526 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-19 19:19:47,655 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 19:19:47,763 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 19:19:47,897 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 19:19:47,914 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'title')
+2025-06-19 19:19:47,937 - base_page.py:[84] - [INFO] - Retrieved text 'Products' from element: ('class name', 'title')
+2025-06-19 19:19:47,938 - test_smoke_journey.py:[39] - [INFO] - Login successful and inventory page is displayed.
+2025-06-19 19:19:47,989 - base_page.py:[38] - [INFO] - Successfully clicked element: ('xpath', "//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button")
+2025-06-19 19:19:47,990 - inventory_page.py:[41] - [INFO] - Clicked 'Add to Cart' for item: Sauce Labs Backpack
+2025-06-19 19:19:48,002 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'shopping_cart_badge')
+2025-06-19 19:19:48,016 - base_page.py:[84] - [INFO] - Retrieved text '1' from element: ('class name', 'shopping_cart_badge')
+2025-06-19 19:19:48,017 - test_smoke_journey.py:[44] - [INFO] - Item added to cart and badge count is correct.
+2025-06-19 19:19:48,019 - base_test.py:[70] - [INFO] - --- Finished test: test_end_to_end_purchase_happy_path ---
+2025-06-19 19:19:50,331 - conftest.py:[54] - [INFO] - --- Test run finished. ---

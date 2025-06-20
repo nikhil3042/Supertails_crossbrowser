@@ -1,0 +1,14 @@
+2025-06-17 16:55:54,190 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_17_06_2025_16_55_54\log_17_06_2025_16_55_54.log ---
+2025-06-17 16:55:54,190 - base_test.py:[27] - [INFO] - --- Starting test: test_successful_login ---
+2025-06-17 16:55:54,193 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 16:55:55,754 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-17 16:55:56,331 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-17 16:55:56,449 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-17 16:55:56,449 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-17 16:55:56,570 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-17 16:55:56,674 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-17 16:55:56,770 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-17 16:55:56,785 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-17 16:55:56,789 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-17 16:55:56,791 - base_test.py:[47] - [INFO] - --- Finished test: test_successful_login ---
+2025-06-17 16:55:59,108 - conftest.py:[91] - [INFO] - --- Test run finished. ---

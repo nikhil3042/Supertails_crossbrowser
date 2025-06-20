@@ -1,0 +1,44 @@
+2025-06-19 23:18:38,084 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_19_06_2025_23_18_38\log_19_06_2025_23_18_38.log ---
+2025-06-19 23:18:38,084 - base_test.py:[33] - [INFO] - --- Starting test: test_successful_login ---
+2025-06-19 23:18:38,086 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 23:18:38,087 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-19 23:18:39,492 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-19 23:18:39,722 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 23:18:39,741 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-19 23:18:39,742 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-19 23:18:39,808 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 23:18:39,862 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 23:18:39,951 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 23:18:39,967 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-19 23:18:39,971 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-19 23:18:39,973 - base_test.py:[61] - [INFO] - --- Finished test: test_successful_login ---
+2025-06-19 23:18:42,351 - base_test.py:[33] - [INFO] - --- Starting test: test_invalid_login ---
+2025-06-19 23:18:42,353 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 23:18:42,353 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-19 23:18:43,731 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-19 23:18:43,931 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 23:18:43,948 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-19 23:18:43,949 - login_page.py:[24] - [INFO] - Attempting to log in with username: invalid_user
+2025-06-19 23:18:44,012 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 23:18:44,091 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 23:18:44,154 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 23:18:44,167 - base_page.py:[70] - [INFO] - Element is visible: ('css selector', "h3[data-test='error']")
+2025-06-19 23:18:44,185 - base_page.py:[84] - [INFO] - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: ('css selector', "h3[data-test='error']")
+2025-06-19 23:18:54,743 - base_page.py:[73] - [INFO] - Element is not visible within 5s: ('class name', 'app_logo')
+2025-06-19 23:18:54,747 - base_test.py:[61] - [INFO] - --- Finished test: test_invalid_login ---
+2025-06-19 23:18:57,083 - base_test.py:[33] - [INFO] - --- Starting test: test_login_failure_for_screenshot ---
+2025-06-19 23:18:57,084 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 23:18:57,084 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-19 23:18:58,527 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-19 23:18:58,686 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 23:18:58,687 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-19 23:18:58,762 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 23:18:58,841 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 23:18:58,917 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 23:18:58,933 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-19 23:18:58,934 - test_login.py:[95] - [INFO] - Now asserting for an incorrect title to trigger a failure.
+2025-06-19 23:18:58,937 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-19 23:18:59,010 - base_test.py:[113] - [ERROR] - Test 'test_login_failure_for_screenshot' failed. Capturing Allure screenshot.
+2025-06-19 23:19:00,164 - base_test.py:[126] - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_login_failure_for_screenshot_20250619_231859.png
+2025-06-19 23:19:00,164 - base_test.py:[61] - [INFO] - --- Finished test: test_login_failure_for_screenshot ---
+2025-06-19 23:19:02,489 - conftest.py:[54] - [INFO] - --- Test run finished. ---

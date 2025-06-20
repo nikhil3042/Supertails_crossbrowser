@@ -1,0 +1,46 @@
+2025-06-18 11:59:05,137 - conftest.py:[107] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_18_06_2025_11_59_05\log_18_06_2025_11_59_05.log ---
+2025-06-18 11:59:05,137 - base_test.py:[22] - [INFO] - --- Starting test: test_successful_login ---
+2025-06-18 11:59:05,138 - base_test.py:[26] - [INFO] - DEBUG: Project Root detected by fixture is: F:\TY_New\PythonRMG\HarshaFW_Python
+2025-06-18 11:59:05,140 - base_test.py:[63] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 11:59:06,714 - base_test.py:[79] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 11:59:07,215 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-18 11:59:07,241 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-18 11:59:07,242 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-18 11:59:07,376 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-18 11:59:07,474 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-18 11:59:07,587 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-18 11:59:07,625 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-18 11:59:07,630 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-18 11:59:07,633 - base_test.py:[55] - [INFO] - --- Finished test: test_successful_login ---
+2025-06-18 11:59:09,974 - base_test.py:[22] - [INFO] - --- Starting test: test_invalid_login ---
+2025-06-18 11:59:09,975 - base_test.py:[26] - [INFO] - DEBUG: Project Root detected by fixture is: F:\TY_New\PythonRMG\HarshaFW_Python
+2025-06-18 11:59:09,977 - base_test.py:[63] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 11:59:11,406 - base_test.py:[79] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 11:59:11,861 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-18 11:59:11,885 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-18 11:59:11,885 - login_page.py:[24] - [INFO] - Attempting to log in with username: invalid_user
+2025-06-18 11:59:12,014 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-18 11:59:12,118 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-18 11:59:12,184 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-18 11:59:12,198 - base_page.py:[70] - [INFO] - Element is visible: ('css selector', "h3[data-test='error']")
+2025-06-18 11:59:12,230 - base_page.py:[84] - [INFO] - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: ('css selector', "h3[data-test='error']")
+2025-06-18 11:59:22,764 - base_page.py:[73] - [INFO] - Element is not visible within 5s: ('class name', 'app_logo')
+2025-06-18 11:59:22,766 - base_test.py:[55] - [INFO] - --- Finished test: test_invalid_login ---
+2025-06-18 11:59:25,102 - base_test.py:[22] - [INFO] - --- Starting test: test_login_failure_for_screenshot ---
+2025-06-18 11:59:25,103 - base_test.py:[26] - [INFO] - DEBUG: Project Root detected by fixture is: F:\TY_New\PythonRMG\HarshaFW_Python
+2025-06-18 11:59:25,105 - base_test.py:[63] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 11:59:26,638 - base_test.py:[79] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 11:59:27,060 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-18 11:59:27,060 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-18 11:59:27,189 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-18 11:59:27,255 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-18 11:59:27,414 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-18 11:59:27,435 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-18 11:59:27,435 - test_login.py:[91] - [INFO] - Now asserting for an incorrect title to trigger a failure.
+2025-06-18 11:59:27,440 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-18 11:59:27,570 - base_test.py:[85] - [ERROR] - Test 'test_login_failure_for_screenshot' failed. Capturing failure evidence.
+2025-06-18 11:59:27,570 - base_test.py:[88] - [INFO] - DEBUG: _capture_failure_evidence received project_root: F:\TY_New\PythonRMG\HarshaFW_Python
+2025-06-18 11:59:27,571 - base_test.py:[96] - [INFO] - DEBUG: Absolute screenshot path is: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_login_failure_for_screenshot.png
+2025-06-18 11:59:27,694 - base_test.py:[111] - [INFO] - Screenshot saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_login_failure_for_screenshot.png
+2025-06-18 11:59:27,694 - base_test.py:[55] - [INFO] - --- Finished test: test_login_failure_for_screenshot ---
+2025-06-18 11:59:29,969 - conftest.py:[111] - [INFO] - --- Test run finished. ---

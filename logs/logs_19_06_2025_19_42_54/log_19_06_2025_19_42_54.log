@@ -1,0 +1,4 @@
+2025-06-19 19:42:54,284 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_19_06_2025_19_42_54\log_19_06_2025_19_42_54.log ---
+2025-06-19 19:42:54,285 - base_test.py:[34] - [INFO] - --- Starting test: test_end_to_end_purchase_happy_path ---
+2025-06-19 19:42:54,287 - base_test.py:[78] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 19:42:54,369 - conftest.py:[54] - [INFO] - --- Test run finished. ---

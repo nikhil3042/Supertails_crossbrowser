@@ -1,0 +1,13 @@
+2025-06-19 23:18:57,084 - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 23:18:57,084 - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-19 23:18:58,527 - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-19 23:18:58,686 - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 23:18:58,687 - [INFO] - Attempting to log in with username: standard_user
+2025-06-19 23:18:58,762 - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 23:18:58,841 - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 23:18:58,917 - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 23:18:58,933 - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-19 23:18:58,934 - [INFO] - Now asserting for an incorrect title to trigger a failure.
+2025-06-19 23:18:58,937 - [INFO] - Current page title: Swag Labs
+2025-06-19 23:18:59,010 - [ERROR] - Test 'test_login_failure_for_screenshot' failed. Capturing Allure screenshot.
+2025-06-19 23:19:00,164 - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_login_failure_for_screenshot_20250619_231859.png

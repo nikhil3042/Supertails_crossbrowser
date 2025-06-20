@@ -1,0 +1,10 @@
+2025-06-17 16:03:16,970 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_17_06_2025_16_03_16\log_17_06_2025_16_03_16.log ---
+2025-06-17 16:03:16,971 - base_test.py:[27] - [INFO] - --- Starting test: test_fail_scenario ---
+2025-06-17 16:03:16,973 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 16:03:18,555 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-17 16:03:18,583 - test_report_statuses.py:[38] - [INFO] - Navigating to https://www.google.com
+2025-06-17 16:03:19,313 - test_report_statuses.py:[41] - [ERROR] - This assertion will fail, triggering failure evidence capture.
+2025-06-17 16:03:19,433 - base_test.py:[96] - [ERROR] - Test 'test_fail_scenario' failed. Capturing failure evidence.
+2025-06-17 16:03:19,622 - base_test.py:[102] - [INFO] - Screenshot saved to: reports/screenshots/failed_test_fail_scenario.png
+2025-06-17 16:03:19,622 - base_test.py:[47] - [INFO] - --- Finished test: test_fail_scenario ---
+2025-06-17 16:03:21,888 - conftest.py:[91] - [INFO] - --- Test run finished. ---

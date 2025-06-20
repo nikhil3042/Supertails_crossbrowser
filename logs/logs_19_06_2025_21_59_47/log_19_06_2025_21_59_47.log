@@ -1,0 +1,32 @@
+2025-06-19 21:59:47,594 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_19_06_2025_21_59_47\log_19_06_2025_21_59_47.log ---
+2025-06-19 21:59:47,595 - base_test.py:[33] - [INFO] - --- Starting test: test_end_to_end_purchase_happy_path ---
+2025-06-19 21:59:47,598 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 21:59:47,598 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-19 21:59:49,117 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-19 21:59:49,448 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-19 21:59:49,449 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-19 21:59:49,537 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-19 21:59:49,594 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-19 21:59:49,674 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-19 21:59:49,695 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'title')
+2025-06-19 21:59:49,719 - base_page.py:[84] - [INFO] - Retrieved text 'Products' from element: ('class name', 'title')
+2025-06-19 21:59:49,719 - test_smoke_journey.py:[43] - [INFO] - Login successful and inventory page is displayed.
+2025-06-19 21:59:52,780 - base_page.py:[38] - [INFO] - Successfully clicked element: ('xpath', "//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button")
+2025-06-19 21:59:52,780 - inventory_page.py:[41] - [INFO] - Clicked 'Add to Cart' for item: Sauce Labs Backpack
+2025-06-19 21:59:52,796 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'shopping_cart_badge')
+2025-06-19 21:59:52,809 - base_page.py:[84] - [INFO] - Retrieved text '1' from element: ('class name', 'shopping_cart_badge')
+2025-06-19 21:59:52,809 - test_smoke_journey.py:[49] - [INFO] - Item added to cart and badge count is correct.
+2025-06-19 21:59:55,873 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'shopping_cart_container')
+2025-06-19 21:59:55,888 - base_page.py:[70] - [INFO] - Element is visible: ('xpath', "//div[@class='inventory_item_name' and text()='Sauce Labs Backpack']")
+2025-06-19 21:59:55,888 - test_smoke_journey.py:[56] - [INFO] - Successfully navigated to cart and verified the item.
+2025-06-19 21:59:58,956 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'checkout')
+2025-06-19 21:59:58,957 - cart_page.py:[36] - [INFO] - Clicked the Checkout button.
+2025-06-19 21:59:59,011 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'first-name')
+2025-06-19 21:59:59,062 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'last-name')
+2025-06-19 21:59:59,116 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'postal-code')
+2025-06-19 21:59:59,116 - checkout_step_one_page.py:[26] - [INFO] - Filled checkout information for Test User.
+2025-06-19 21:59:59,176 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'continue')
+2025-06-19 21:59:59,176 - checkout_step_one_page.py:[31] - [INFO] - Clicked the Continue button on checkout page.
+2025-06-19 21:59:59,176 - test_smoke_journey.py:[63] - [INFO] - Filled checkout info and continued to the overview page.
+2025-06-19 22:00:02,181 - base_test.py:[61] - [INFO] - --- Finished test: test_end_to_end_purchase_happy_path ---
+2025-06-19 22:00:04,581 - conftest.py:[54] - [INFO] - --- Test run finished. ---

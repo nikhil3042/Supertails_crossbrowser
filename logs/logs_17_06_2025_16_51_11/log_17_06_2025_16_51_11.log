@@ -1,0 +1,40 @@
+2025-06-17 16:51:11,878 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_17_06_2025_16_51_11\log_17_06_2025_16_51_11.log ---
+2025-06-17 16:51:11,879 - base_test.py:[27] - [INFO] - --- Starting test: test_successful_login ---
+2025-06-17 16:51:11,881 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 16:51:13,452 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-17 16:51:13,925 - base_page.py:[104] - [ERROR] - Failed to navigate to https://dev.example.com. Error: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff787b8fe75+79173]
+	GetHandleVerifier [0x0x7ff787b8fed0+79264]
+	(No symbol) [0x0x7ff787949e5a]
+	(No symbol) [0x0x7ff787946874]
+	(No symbol) [0x0x7ff787937589]
+	(No symbol) [0x0x7ff787939331]
+	(No symbol) [0x0x7ff7879378a6]
+	(No symbol) [0x0x7ff787937306]
+	(No symbol) [0x0x7ff787936fca]
+	(No symbol) [0x0x7ff787934b9f]
+	(No symbol) [0x0x7ff78793541c]
+	(No symbol) [0x0x7ff78794de0a]
+	(No symbol) [0x0x7ff7879f1dfe]
+	(No symbol) [0x0x7ff7879c896a]
+	(No symbol) [0x0x7ff7879f100d]
+	(No symbol) [0x0x7ff7879c8743]
+	(No symbol) [0x0x7ff7879914c1]
+	(No symbol) [0x0x7ff787992253]
+	GetHandleVerifier [0x0x7ff787e5a2ad+3004797]
+	GetHandleVerifier [0x0x7ff787e546fd+2981325]
+	GetHandleVerifier [0x0x7ff787e73350+3107360]
+	GetHandleVerifier [0x0x7ff787baa9fe+188622]
+	GetHandleVerifier [0x0x7ff787bb228f+219487]
+	GetHandleVerifier [0x0x7ff787b98dc4+115860]
+	GetHandleVerifier [0x0x7ff787b98f79+116297]
+	GetHandleVerifier [0x0x7ff787b7f528+11256]
+	BaseThreadInitThunk [0x0x7ff9b2e67374+20]
+	RtlUserThreadStart [0x0x7ff9b34dcc91+33]
+
+2025-06-17 16:51:14,085 - base_test.py:[96] - [ERROR] - Test 'test_successful_login' failed. Capturing failure evidence.
+2025-06-17 16:51:14,192 - base_test.py:[102] - [INFO] - Screenshot saved to: reports/screenshots/failed_test_successful_login.png
+2025-06-17 16:51:14,193 - base_test.py:[47] - [INFO] - --- Finished test: test_successful_login ---
+2025-06-17 16:51:16,483 - conftest.py:[91] - [INFO] - --- Test run finished. ---

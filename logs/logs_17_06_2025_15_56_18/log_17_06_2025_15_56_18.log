@@ -1,0 +1,4 @@
+2025-06-17 15:56:18,789 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_17_06_2025_15_56_18\log_17_06_2025_15_56_18.log ---
+2025-06-17 15:56:18,790 - base_test.py:[31] - [INFO] - --- Starting test: test_pass_scenario ---
+2025-06-17 15:56:18,800 - base_test.py:[76] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-17 15:56:22,174 - conftest.py:[91] - [INFO] - --- Test run finished. ---

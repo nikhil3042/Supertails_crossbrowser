@@ -1,0 +1,41 @@
+2025-06-18 11:11:13,290 - conftest.py:[107] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_18_06_2025_11_11_13\log_18_06_2025_11_11_13.log ---
+2025-06-18 11:11:13,291 - base_test.py:[28] - [INFO] - --- Starting test: test_successful_login ---
+2025-06-18 11:11:13,293 - base_test.py:[56] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 11:11:15,137 - base_test.py:[79] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 11:11:15,672 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-18 11:11:15,699 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-18 11:11:15,700 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-18 11:11:15,828 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-18 11:11:15,953 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-18 11:11:16,077 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-18 11:11:16,095 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-18 11:11:16,100 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-18 11:11:16,103 - base_test.py:[48] - [INFO] - --- Finished test: test_successful_login ---
+2025-06-18 11:11:18,474 - base_test.py:[28] - [INFO] - --- Starting test: test_invalid_login ---
+2025-06-18 11:11:18,478 - base_test.py:[56] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 11:11:19,990 - base_test.py:[79] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 11:11:20,376 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-18 11:11:20,405 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'user-name')
+2025-06-18 11:11:20,406 - login_page.py:[24] - [INFO] - Attempting to log in with username: invalid_user
+2025-06-18 11:11:20,519 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-18 11:11:20,626 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-18 11:11:20,730 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-18 11:11:20,743 - base_page.py:[70] - [INFO] - Element is visible: ('css selector', "h3[data-test='error']")
+2025-06-18 11:11:20,761 - base_page.py:[84] - [INFO] - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: ('css selector', "h3[data-test='error']")
+2025-06-18 11:11:31,325 - base_page.py:[73] - [INFO] - Element is not visible within 5s: ('class name', 'app_logo')
+2025-06-18 11:11:31,327 - base_test.py:[48] - [INFO] - --- Finished test: test_invalid_login ---
+2025-06-18 11:11:33,652 - base_test.py:[28] - [INFO] - --- Starting test: test_login_failure_for_screenshot ---
+2025-06-18 11:11:33,654 - base_test.py:[56] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 11:11:35,172 - base_test.py:[79] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 11:11:35,749 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-18 11:11:35,750 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user
+2025-06-18 11:11:35,908 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-18 11:11:36,072 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-18 11:11:36,228 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-18 11:11:36,253 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'app_logo')
+2025-06-18 11:11:36,254 - test_login.py:[91] - [INFO] - Now asserting for an incorrect title to trigger a failure.
+2025-06-18 11:11:36,260 - base_page.py:[94] - [INFO] - Current page title: Swag Labs
+2025-06-18 11:11:36,386 - base_test.py:[97] - [ERROR] - Test 'test_login_failure_for_screenshot' failed. Capturing failure evidence.
+2025-06-18 11:11:36,521 - base_test.py:[111] - [INFO] - Screenshot saved to: reports\screenshots\failed_test_login_failure_for_screenshot.png
+2025-06-18 11:11:36,521 - base_test.py:[48] - [INFO] - --- Finished test: test_login_failure_for_screenshot ---
+2025-06-18 11:11:38,801 - conftest.py:[111] - [INFO] - --- Test run finished. ---

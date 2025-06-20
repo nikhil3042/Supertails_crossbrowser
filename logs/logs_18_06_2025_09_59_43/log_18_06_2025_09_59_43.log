@@ -1,0 +1,78 @@
+2025-06-18 09:59:43,572 - conftest.py:[87] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_18_06_2025_09_59_43\log_18_06_2025_09_59_43.log ---
+2025-06-18 09:59:43,573 - base_test.py:[27] - [INFO] - --- Starting test: test_successful_login ---
+2025-06-18 09:59:43,583 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 09:59:47,029 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 09:59:47,512 - base_page.py:[104] - [ERROR] - Failed to navigate to https://dev.example.com. Error: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff74484cda5+78885]
+	GetHandleVerifier [0x0x7ff74484ce00+78976]
+	(No symbol) [0x0x7ff744609bca]
+	(No symbol) [0x0x7ff7446065e2]
+	(No symbol) [0x0x7ff7445f7319]
+	(No symbol) [0x0x7ff7445f90c1]
+	(No symbol) [0x0x7ff7445f7636]
+	(No symbol) [0x0x7ff7445f7096]
+	(No symbol) [0x0x7ff7445f6d5a]
+	(No symbol) [0x0x7ff7445f492f]
+	(No symbol) [0x0x7ff7445f51ac]
+	(No symbol) [0x0x7ff74460db7a]
+	(No symbol) [0x0x7ff7446b201e]
+	(No symbol) [0x0x7ff744688b8a]
+	(No symbol) [0x0x7ff7446b122f]
+	(No symbol) [0x0x7ff744688963]
+	(No symbol) [0x0x7ff7446516b1]
+	(No symbol) [0x0x7ff744652443]
+	GetHandleVerifier [0x0x7ff744b24eed+3061101]
+	GetHandleVerifier [0x0x7ff744b1f33d+3037629]
+	GetHandleVerifier [0x0x7ff744b3e592+3165202]
+	GetHandleVerifier [0x0x7ff74486730e+186766]
+	GetHandleVerifier [0x0x7ff74486eb3f+217535]
+	GetHandleVerifier [0x0x7ff7448559b4+114740]
+	GetHandleVerifier [0x0x7ff744855b69+115177]
+	GetHandleVerifier [0x0x7ff74483c368+10728]
+	BaseThreadInitThunk [0x0x7ff9b2e67374+20]
+	RtlUserThreadStart [0x0x7ff9b34dcc91+33]
+
+2025-06-18 09:59:47,879 - base_test.py:[96] - [ERROR] - Test 'test_successful_login' failed. Capturing failure evidence.
+2025-06-18 09:59:47,972 - base_test.py:[104] - [ERROR] - Failed to capture screenshot: [Errno 2] No such file or directory: 'reports/screenshots/failed_test_successful_login.png'
+2025-06-18 09:59:47,973 - base_test.py:[47] - [INFO] - --- Finished test: test_successful_login ---
+2025-06-18 09:59:50,250 - base_test.py:[27] - [INFO] - --- Starting test: test_invalid_login ---
+2025-06-18 09:59:50,254 - base_test.py:[55] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-18 09:59:51,820 - base_test.py:[78] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-18 09:59:52,085 - base_page.py:[104] - [ERROR] - Failed to navigate to https://dev.example.com. Error: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff74484cda5+78885]
+	GetHandleVerifier [0x0x7ff74484ce00+78976]
+	(No symbol) [0x0x7ff744609bca]
+	(No symbol) [0x0x7ff7446065e2]
+	(No symbol) [0x0x7ff7445f7319]
+	(No symbol) [0x0x7ff7445f90c1]
+	(No symbol) [0x0x7ff7445f7636]
+	(No symbol) [0x0x7ff7445f7096]
+	(No symbol) [0x0x7ff7445f6d5a]
+	(No symbol) [0x0x7ff7445f492f]
+	(No symbol) [0x0x7ff7445f51ac]
+	(No symbol) [0x0x7ff74460db7a]
+	(No symbol) [0x0x7ff7446b201e]
+	(No symbol) [0x0x7ff744688b8a]
+	(No symbol) [0x0x7ff7446b122f]
+	(No symbol) [0x0x7ff744688963]
+	(No symbol) [0x0x7ff7446516b1]
+	(No symbol) [0x0x7ff744652443]
+	GetHandleVerifier [0x0x7ff744b24eed+3061101]
+	GetHandleVerifier [0x0x7ff744b1f33d+3037629]
+	GetHandleVerifier [0x0x7ff744b3e592+3165202]
+	GetHandleVerifier [0x0x7ff74486730e+186766]
+	GetHandleVerifier [0x0x7ff74486eb3f+217535]
+	GetHandleVerifier [0x0x7ff7448559b4+114740]
+	GetHandleVerifier [0x0x7ff744855b69+115177]
+	GetHandleVerifier [0x0x7ff74483c368+10728]
+	BaseThreadInitThunk [0x0x7ff9b2e67374+20]
+	RtlUserThreadStart [0x0x7ff9b34dcc91+33]
+
+2025-06-18 09:59:52,118 - base_test.py:[96] - [ERROR] - Test 'test_invalid_login' failed. Capturing failure evidence.
+2025-06-18 09:59:52,228 - base_test.py:[104] - [ERROR] - Failed to capture screenshot: [Errno 2] No such file or directory: 'reports/screenshots/failed_test_invalid_login.png'
+2025-06-18 09:59:52,229 - base_test.py:[47] - [INFO] - --- Finished test: test_invalid_login ---
+2025-06-18 09:59:54,464 - conftest.py:[91] - [INFO] - --- Test run finished. ---

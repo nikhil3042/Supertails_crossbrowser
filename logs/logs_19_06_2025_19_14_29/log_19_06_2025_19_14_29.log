@@ -1,0 +1,41 @@
+2025-06-19 19:14:29,832 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_19_06_2025_19_14_29\log_19_06_2025_19_14_29.log ---
+2025-06-19 19:14:29,833 - base_test.py:[34] - [INFO] - --- Starting test: test_end_to_end_purchase_happy_path ---
+2025-06-19 19:14:29,835 - base_test.py:[78] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-19 19:14:31,329 - base_test.py:[97] - [INFO] - Chrome WebDriver initialized successfully using Selenium Manager.
+2025-06-19 19:14:31,762 - base_page.py:[104] - [ERROR] - Failed to navigate to https://dev.example.com. Error: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c0eccda5+78885]
+	GetHandleVerifier [0x0x7ff7c0ecce00+78976]
+	(No symbol) [0x0x7ff7c0c89bca]
+	(No symbol) [0x0x7ff7c0c865e2]
+	(No symbol) [0x0x7ff7c0c77319]
+	(No symbol) [0x0x7ff7c0c790c1]
+	(No symbol) [0x0x7ff7c0c77636]
+	(No symbol) [0x0x7ff7c0c77096]
+	(No symbol) [0x0x7ff7c0c76d5a]
+	(No symbol) [0x0x7ff7c0c7492f]
+	(No symbol) [0x0x7ff7c0c751ac]
+	(No symbol) [0x0x7ff7c0c8db7a]
+	(No symbol) [0x0x7ff7c0d3201e]
+	(No symbol) [0x0x7ff7c0d08b8a]
+	(No symbol) [0x0x7ff7c0d3122f]
+	(No symbol) [0x0x7ff7c0d08963]
+	(No symbol) [0x0x7ff7c0cd16b1]
+	(No symbol) [0x0x7ff7c0cd2443]
+	GetHandleVerifier [0x0x7ff7c11a4eed+3061101]
+	GetHandleVerifier [0x0x7ff7c119f33d+3037629]
+	GetHandleVerifier [0x0x7ff7c11be592+3165202]
+	GetHandleVerifier [0x0x7ff7c0ee730e+186766]
+	GetHandleVerifier [0x0x7ff7c0eeeb3f+217535]
+	GetHandleVerifier [0x0x7ff7c0ed59b4+114740]
+	GetHandleVerifier [0x0x7ff7c0ed5b69+115177]
+	GetHandleVerifier [0x0x7ff7c0ebc368+10728]
+	BaseThreadInitThunk [0x0x7ff9b2e67374+20]
+	RtlUserThreadStart [0x0x7ff9b34dcc91+33]
+
+2025-06-19 19:14:33,001 - base_test.py:[103] - [ERROR] - Test 'test_end_to_end_purchase_happy_path' failed. Capturing Allure screenshot.
+2025-06-19 19:14:33,002 - base_test.py:[113] - [INFO] - Waiting for 2 seconds before taking screenshot...
+2025-06-19 19:14:35,133 - base_test.py:[119] - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_end_to_end_purchase_happy_path_20250619_191433.png
+2025-06-19 19:14:35,134 - base_test.py:[70] - [INFO] - --- Finished test: test_end_to_end_purchase_happy_path ---
+2025-06-19 19:14:37,407 - conftest.py:[54] - [INFO] - --- Test run finished. ---
