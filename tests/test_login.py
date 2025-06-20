@@ -16,9 +16,9 @@ class TestLogin(BaseTest):
 
     @allure.title("Test successful login with valid credentials")
     @allure.severity(allure.severity_level.CRITICAL)
-    @pytest.mark.sanity  # <-- Add Sanity marker
-    @pytest.mark.smoke  # <-- Add Smoke marker
-    @pytest.mark.regression  # <-- Add Regression marker
+    @pytest.mark.sanity
+    @pytest.mark.smoke
+    @pytest.mark.regression
     def test_successful_login(self):
         """
         Test Case: Verify successful login using credentials from config.yaml.

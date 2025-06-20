@@ -1,0 +1,44 @@
+[32m2025-06-20 10:40:14,739 - base_test.py:[33] - [INFO] - --- Starting test: test_end_to_end_purchase_happy_path ---[0m
+[32m2025-06-20 10:40:14,741 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)[0m
+[32m2025-06-20 10:40:14,741 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile[0m
+[32m2025-06-20 10:40:16,265 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.[0m
+[32m2025-06-20 10:40:16,909 - base_page.py:[102] - [INFO] - Successfully navigated to: https://www.saucedemo.com/[0m
+[32m2025-06-20 10:40:16,909 - login_page.py:[24] - [INFO] - Attempting to log in with username: standard_user[0m
+[32m2025-06-20 10:40:17,066 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'user-name')[0m
+[32m2025-06-20 10:40:17,168 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'password')[0m
+[32m2025-06-20 10:40:17,306 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'login-button')[0m
+[32m2025-06-20 10:40:17,336 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'title')[0m
+[32m2025-06-20 10:40:17,368 - base_page.py:[84] - [INFO] - Retrieved text 'Products' from element: ('class name', 'title')[0m
+[32m2025-06-20 10:40:17,369 - test_smoke_journey.py:[48] - [INFO] - Login successful and inventory page is displayed.[0m
+[32m2025-06-20 10:40:17,446 - base_page.py:[38] - [INFO] - Successfully clicked element: ('xpath', "//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button")[0m
+[32m2025-06-20 10:40:17,446 - inventory_page.py:[42] - [INFO] - Clicked 'Add to Cart' for item: Sauce Labs Backpack[0m
+[32m2025-06-20 10:40:17,446 - inventory_page.py:[56] - [INFO] - Waiting for cart badge to show '1'...[0m
+[32m2025-06-20 10:40:17,467 - inventory_page.py:[60] - [INFO] - Cart badge updated correctly.[0m
+[32m2025-06-20 10:40:17,468 - test_smoke_journey.py:[53] - [INFO] - Item added to cart and badge count is correct.[0m
+[32m2025-06-20 10:40:17,552 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'shopping_cart_container')[0m
+[32m2025-06-20 10:40:17,575 - base_page.py:[70] - [INFO] - Element is visible: ('xpath', "//div[@class='inventory_item_name' and text()='Sauce Labs Backpack']")[0m
+[32m2025-06-20 10:40:17,575 - test_smoke_journey.py:[58] - [INFO] - Successfully navigated to cart and verified the item.[0m
+[32m2025-06-20 10:40:17,651 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'checkout')[0m
+[32m2025-06-20 10:40:17,651 - cart_page.py:[36] - [INFO] - Clicked the Checkout button.[0m
+[32m2025-06-20 10:40:17,747 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'first-name')[0m
+[32m2025-06-20 10:40:17,825 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'last-name')[0m
+[32m2025-06-20 10:40:17,902 - base_page.py:[55] - [INFO] - Successfully entered text into element: ('id', 'postal-code')[0m
+[32m2025-06-20 10:40:17,902 - checkout_step_one_page.py:[26] - [INFO] - Filled checkout information for Test User.[0m
+[32m2025-06-20 10:40:18,000 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'continue')[0m
+[32m2025-06-20 10:40:18,001 - checkout_step_one_page.py:[31] - [INFO] - Clicked the Continue button on checkout page.[0m
+[32m2025-06-20 10:40:18,001 - test_smoke_journey.py:[64] - [INFO] - Filled checkout info and continued to the overview page.[0m
+[32m2025-06-20 10:40:18,018 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'title')[0m
+[32m2025-06-20 10:40:18,038 - base_page.py:[84] - [INFO] - Retrieved text 'Checkout: Overview' from element: ('class name', 'title')[0m
+[32m2025-06-20 10:40:18,109 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'finish')[0m
+[32m2025-06-20 10:40:18,110 - checkout_step_two_page.py:[26] - [INFO] - Clicked the Finish button.[0m
+[32m2025-06-20 10:40:18,110 - test_smoke_journey.py:[69] - [INFO] - Verified overview and finished the purchase.[0m
+[32m2025-06-20 10:40:18,130 - base_page.py:[70] - [INFO] - Element is visible: ('class name', 'complete-header')[0m
+[32m2025-06-20 10:40:18,149 - base_page.py:[84] - [INFO] - Retrieved text 'Thank you for your order!' from element: ('class name', 'complete-header')[0m
+[32m2025-06-20 10:40:18,149 - test_smoke_journey.py:[74] - [INFO] - Order confirmed with message: Thank you for your order![0m
+[32m2025-06-20 10:40:18,218 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'react-burger-menu-btn')[0m
+[32m2025-06-20 10:40:18,813 - base_page.py:[38] - [INFO] - Successfully clicked element: ('id', 'logout_sidebar_link')[0m
+[32m2025-06-20 10:40:18,814 - inventory_page.py:[75] - [INFO] - User logged out successfully.[0m
+[32m2025-06-20 10:40:18,826 - base_page.py:[70] - [INFO] - Element is visible: ('id', 'login-button')[0m
+[32m2025-06-20 10:40:18,827 - test_smoke_journey.py:[80] - [INFO] - Logout was successful.[0m
+[32m2025-06-20 10:40:18,834 - base_test.py:[61] - [INFO] - --- Finished test: test_end_to_end_purchase_happy_path ---[0m
+[32m2025-06-20 10:40:21,317 - conftest.py:[54] - [INFO] - --- Test run finished. ---[0m

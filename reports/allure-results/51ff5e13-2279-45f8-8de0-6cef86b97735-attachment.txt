@@ -1,0 +1,41 @@
+2025-06-20 10:40:14,741 - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-20 10:40:14,741 - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-20 10:40:16,265 - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-20 10:40:16,909 - [INFO] - Successfully navigated to: https://www.saucedemo.com/
+2025-06-20 10:40:16,909 - [INFO] - Attempting to log in with username: standard_user
+2025-06-20 10:40:17,066 - [INFO] - Successfully entered text into element: ('id', 'user-name')
+2025-06-20 10:40:17,168 - [INFO] - Successfully entered text into element: ('id', 'password')
+2025-06-20 10:40:17,306 - [INFO] - Successfully clicked element: ('id', 'login-button')
+2025-06-20 10:40:17,336 - [INFO] - Element is visible: ('class name', 'title')
+2025-06-20 10:40:17,368 - [INFO] - Retrieved text 'Products' from element: ('class name', 'title')
+2025-06-20 10:40:17,369 - [INFO] - Login successful and inventory page is displayed.
+2025-06-20 10:40:17,446 - [INFO] - Successfully clicked element: ('xpath', "//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button")
+2025-06-20 10:40:17,446 - [INFO] - Clicked 'Add to Cart' for item: Sauce Labs Backpack
+2025-06-20 10:40:17,446 - [INFO] - Waiting for cart badge to show '1'...
+2025-06-20 10:40:17,467 - [INFO] - Cart badge updated correctly.
+2025-06-20 10:40:17,468 - [INFO] - Item added to cart and badge count is correct.
+2025-06-20 10:40:17,552 - [INFO] - Successfully clicked element: ('id', 'shopping_cart_container')
+2025-06-20 10:40:17,575 - [INFO] - Element is visible: ('xpath', "//div[@class='inventory_item_name' and text()='Sauce Labs Backpack']")
+2025-06-20 10:40:17,575 - [INFO] - Successfully navigated to cart and verified the item.
+2025-06-20 10:40:17,651 - [INFO] - Successfully clicked element: ('id', 'checkout')
+2025-06-20 10:40:17,651 - [INFO] - Clicked the Checkout button.
+2025-06-20 10:40:17,747 - [INFO] - Successfully entered text into element: ('id', 'first-name')
+2025-06-20 10:40:17,825 - [INFO] - Successfully entered text into element: ('id', 'last-name')
+2025-06-20 10:40:17,902 - [INFO] - Successfully entered text into element: ('id', 'postal-code')
+2025-06-20 10:40:17,902 - [INFO] - Filled checkout information for Test User.
+2025-06-20 10:40:18,000 - [INFO] - Successfully clicked element: ('id', 'continue')
+2025-06-20 10:40:18,001 - [INFO] - Clicked the Continue button on checkout page.
+2025-06-20 10:40:18,001 - [INFO] - Filled checkout info and continued to the overview page.
+2025-06-20 10:40:18,018 - [INFO] - Element is visible: ('class name', 'title')
+2025-06-20 10:40:18,038 - [INFO] - Retrieved text 'Checkout: Overview' from element: ('class name', 'title')
+2025-06-20 10:40:18,109 - [INFO] - Successfully clicked element: ('id', 'finish')
+2025-06-20 10:40:18,110 - [INFO] - Clicked the Finish button.
+2025-06-20 10:40:18,110 - [INFO] - Verified overview and finished the purchase.
+2025-06-20 10:40:18,130 - [INFO] - Element is visible: ('class name', 'complete-header')
+2025-06-20 10:40:18,149 - [INFO] - Retrieved text 'Thank you for your order!' from element: ('class name', 'complete-header')
+2025-06-20 10:40:18,149 - [INFO] - Order confirmed with message: Thank you for your order!
+2025-06-20 10:40:18,218 - [INFO] - Successfully clicked element: ('id', 'react-burger-menu-btn')
+2025-06-20 10:40:18,813 - [INFO] - Successfully clicked element: ('id', 'logout_sidebar_link')
+2025-06-20 10:40:18,814 - [INFO] - User logged out successfully.
+2025-06-20 10:40:18,826 - [INFO] - Element is visible: ('id', 'login-button')
+2025-06-20 10:40:18,827 - [INFO] - Logout was successful.

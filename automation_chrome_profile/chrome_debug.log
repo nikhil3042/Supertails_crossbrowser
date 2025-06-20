@@ -1,5 +1,5 @@
-[12372:31216:0619/231858.042:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
-[12856:3436:0619/231858.238:WARNING:ui\gl\direct_composition_support.cc:1167] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
-[12372:31216:0619/231858.667:INFO:CONSOLE:0] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://www.saucedemo.com/ (0)
-[29604:24748:0619/231900.231:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
-[29604:24748:0619/231900.231:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[32324:29716:0620/104015.694:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[23076:17916:0620/104015.951:WARNING:ui\gl\direct_composition_support.cc:1167] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[32324:29716:0620/104016.874:INFO:CONSOLE:0] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://www.saucedemo.com/ (0)
+[11744:24248:0620/104018.957:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[11744:24248:0620/104018.958:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

@@ -20,7 +20,7 @@ class TestSmokePurchase(BaseTest):
     """
 
     @pytest.mark.smoke
-    @pytest.mark.regression  # <-- Add Regression marker
+    @pytest.mark.regression
     @allure.story("Happy Path Purchase")
     @allure.title("Test End-to-End Purchase for a Standard User")
     @allure.description(

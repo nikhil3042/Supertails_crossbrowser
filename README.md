@@ -98,71 +98,17 @@ Your_Project_Name/
 ├── 📄 requirements.txt           # Python package dependencies
 └── 📄 README.md                  # Project documentation
 
-```mermaid
-graph TD;
-    subgraph "Project Root: HarshaFW_Python"
-        A("HarshaFW_Python") --- B("📁 config");
-        A --- C("📁 data");
-        A --- D("📁 logs");
-        A --- E("📁 pages");
-        A --- F("📁 reports");
-        A --- G("📁 tests");
-        A --- H("📁 utils");
-        A --- I("📄 pytest.ini");
-        A --- J("📄 requirements.txt");
-    end
 
-    subgraph "Key Folders"
-        B --> B1["config.yaml"];
-        E --> E1["base_page.py"];
-        G --> G1["conftest.py"];
-        G --> G2["base_test.py"];
-        H --> H1["excel_provider.py"];
-    end
-```
-graph TD
-    subgraph "Data Layer"
-        A["📄 Data Files (Excel)"] -->|1. Data is Read| B[/"python\n openpyxl"/];
-        B --> C["utils/excel_provider.py"];
-    end
+---
 
-    subgraph "Core Framework Libraries"
-        D["pages/base_page.py"];
-        E["utils/logger.py"];
-    end
+## 🏗️ Framework Architecture
 
-    subgraph "Test Layer"
-        F["pages/ (POM)"];
-        G["tests/test_*.py (Test Scripts)"];
-        C -->|2. Provides Data| G;
-        D -->|3. Provides Reusable Actions| F;
-        E -->|Provides Logger| F;
-        E -->|Provides Logger| G;
-        F --> G;
-    end
+This diagram provides a high-level visual overview of the framework's components and their relationships.
 
-    subgraph "Test Runner & Suiting"
-        H["Pytest Engine"];
-        I["pytest.ini (Markers & Config)"] --> H;
-        G -- "Discovers & Executes" --> H;
-    end
-    
-    subgraph "Reporting Engine"
-        J["tests/conftest.py (Hooks & Fixtures)"];
-        K["Allure & pytest-html Plugins"];
-    end
+![Framework Architecture Diagram](docs_images/framework_architecture.png)
 
-    subgraph "Output"
-        L["📊 Execution Report (Allure & HTML)"];
-    end
+---
 
-    H -->|4. Triggers Hooks & Fixtures| J;
-    J -->|5. Controls Plugins| K;
-    K -->|6. Generates Report| L;
-
-    style A fill:#d4edda,stroke:#155724
-    style L fill:#cce5ff,stroke:#004085
-    style H fill:#f8d7da,stroke:#721c24
 ---
 
 ## 📜 Coding Standards & Best Practices
