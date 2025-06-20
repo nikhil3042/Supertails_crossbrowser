@@ -120,32 +120,49 @@ graph TD;
         H --> H1["excel_provider.py"];
     end
 ```
-
-```mermaid
 graph TD
-    A[Start: pytest command] --> B{pytest.ini is Read};
-    B --> C{conftest.py Hooks Initialized};
-    C --> D[Session Logger Starts];
-    D --> E[Test Discovery Begins];
-    E --> F["For Each Test..."];
-
-    subgraph "Test Execution Loop"
-        F --> G["BaseTest: setup_and_teardown (runs)"];
-        G --> H[Browser Instance Created];
-        H --> I[Test Logic Executes];
-        I --> J[Page Objects Are Called];
-        J --> K["Teardown Phase Begins"];
-        K -- "If Test Failed" --> L[Evidence Captured (Screenshot, Logs)];
-        K -- "Success or Failure" --> M[Browser is Closed];
-        L --> M;
-        M --> F;
+    subgraph "Data Layer"
+        A["📄 Data Files (Excel)"] -->|1. Data is Read| B[/"python\n openpyxl"/];
+        B --> C["utils/excel_provider.py"];
     end
 
-    F -- "All Tests Complete" --> N[Session Finishes];
-    N --> O[Allure & HTML Reports Are Ready];
-    O --> P[End];
-```
+    subgraph "Core Framework Libraries"
+        D["pages/base_page.py"];
+        E["utils/logger.py"];
+    end
 
+    subgraph "Test Layer"
+        F["pages/ (POM)"];
+        G["tests/test_*.py (Test Scripts)"];
+        C -->|2. Provides Data| G;
+        D -->|3. Provides Reusable Actions| F;
+        E -->|Provides Logger| F;
+        E -->|Provides Logger| G;
+        F --> G;
+    end
+
+    subgraph "Test Runner & Suiting"
+        H["Pytest Engine"];
+        I["pytest.ini (Markers & Config)"] --> H;
+        G -- "Discovers & Executes" --> H;
+    end
+    
+    subgraph "Reporting Engine"
+        J["tests/conftest.py (Hooks & Fixtures)"];
+        K["Allure & pytest-html Plugins"];
+    end
+
+    subgraph "Output"
+        L["📊 Execution Report (Allure & HTML)"];
+    end
+
+    H -->|4. Triggers Hooks & Fixtures| J;
+    J -->|5. Controls Plugins| K;
+    K -->|6. Generates Report| L;
+
+    style A fill:#d4edda,stroke:#155724
+    style L fill:#cce5ff,stroke:#004085
+    style H fill:#f8d7da,stroke:#721c24
 ---
 
 ## 📜 Coding Standards & Best Practices
