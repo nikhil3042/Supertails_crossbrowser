@@ -1,0 +1,19 @@
+2025-10-28 17:27:27,112 - [INFO] - Running test on browser: CHROME
+2025-10-28 17:27:27,112 - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 17:27:27,112 - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 17:27:28,276 - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 17:27:28,316 - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 17:27:30,012 - [INFO] - opening cart
+2025-10-28 17:27:33,214 - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:27:33,215 - [INFO] - getting items in cart
+2025-10-28 17:27:33,885 - [DEBUG] - Items before removal: ['Quantity\n−\n+\nRoyal Canin Maxi Puppy Dog Dry Food\nSize - 20kg (2x10kg)\n₹13,958\n₹13,958\n₹15,880\n₹15,880\n₹1,922\n₹1,922\nsaved']
+2025-10-28 17:27:33,900 - [INFO] - removing the product to cart
+2025-10-28 17:27:34,400 - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Remove")]')
+2025-10-28 17:27:34,400 - [INFO] - Removed first item from cart successfully.
+2025-10-28 17:27:34,401 - [INFO] - no result is found
+2025-10-28 17:27:36,613 - [INFO] - Retrieved text 'Oops, your cart is feeling a bit light. Time to give it some love and add some goodies!
+Continue shopping' from element: ('css selector', 'div[class="rte text-spacing"]')
+2025-10-28 17:27:36,613 - [INFO] - Empty cart message: None
+2025-10-28 17:27:36,613 - [ERROR] - Error while removing cart item: 'NoneType' object has no attribute 'lower'
+2025-10-28 17:27:36,825 - [ERROR] - Test 'test_remove_item_from_cart[chrome]' failed. Capturing Allure screenshot.
+2025-10-28 17:27:37,943 - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_remove_item_from_cart[chrome]_20251028_172736.png

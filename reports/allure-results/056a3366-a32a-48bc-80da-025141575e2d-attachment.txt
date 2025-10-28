@@ -1,0 +1,12 @@
+2025-10-28 17:28:48,462 - [INFO] - Running test on browser: CHROME
+2025-10-28 17:28:48,462 - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 17:28:48,462 - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 17:28:49,785 - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 17:28:49,838 - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:28:51,552 - [INFO] - searching for product frandom_invalid_product_xyz
+2025-10-28 17:28:53,115 - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:28:54,240 - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:28:55,723 - [DEBUG] - Search executed with invalid product.
+2025-10-28 17:28:55,724 - [INFO] - no result is found
+2025-10-28 17:28:56,197 - [INFO] - Retrieved text 'Your search for "random_invalid_product_xyz" did not return any results.' from element: ('xpath', '//div[@class="search-not-found noResult"]')
+2025-10-28 17:28:56,198 - [INFO] - No result message: Your search for "random_invalid_product_xyz" did not return any results.

@@ -1,0 +1,16 @@
+2025-06-21 11:47:28,294 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_21_06_2025_11_47_28\log_21_06_2025_11_47_28.log ---
+2025-06-21 11:47:28,295 - base_test.py:[33] - [INFO] - --- Starting test: test_select_date_with_dropdowns ---
+2025-06-21 11:47:28,297 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-21 11:47:28,297 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-21 11:47:29,665 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-21 11:47:32,568 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-06-21 11:47:32,570 - date_picker_page.py:[67] - [INFO] - Attempting to select date using dropdowns: 25-December-2026
+2025-06-21 11:47:32,588 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'txtDate')
+2025-06-21 11:47:32,661 - base_page.py:[36] - [INFO] - Successfully clicked element: ('id', 'txtDate')
+2025-06-21 11:47:32,671 - base_page.py:[113] - [INFO] - Element found: ('id', 'ui-datepicker-div')
+2025-06-21 11:47:32,679 - base_page.py:[113] - [INFO] - Element found: ('css selector', 'select.ui-datepicker-year')
+2025-06-21 11:47:32,728 - base_page.py:[113] - [INFO] - Element found: ('css selector', 'select.ui-datepicker-month')
+2025-06-21 11:47:32,812 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//td[@data-handler='selectDay']/a[text()='25']")
+2025-06-21 11:47:32,817 - base_page.py:[113] - [INFO] - Element found: ('id', 'txtDate')
+2025-06-21 11:47:32,828 - base_test.py:[61] - [INFO] - --- Finished test: test_select_date_with_dropdowns ---
+2025-06-21 11:47:35,150 - conftest.py:[54] - [INFO] - --- Test run finished. ---

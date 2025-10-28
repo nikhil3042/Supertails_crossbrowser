@@ -1,0 +1,42 @@
+2025-06-21 11:15:44,267 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_21_06_2025_11_15_44\log_21_06_2025_11_15_44.log ---
+2025-06-21 11:15:44,268 - base_test.py:[33] - [INFO] - --- Starting test: test_select_date_with_dropdowns ---
+2025-06-21 11:15:44,270 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-21 11:15:44,271 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-21 11:15:45,673 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-21 11:15:48,558 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-06-21 11:15:48,560 - date_picker_page.py:[79] - [INFO] - Attempting to select date using dropdowns: 25-December-2026
+2025-06-21 11:15:48,560 - date_picker_page.py:[42] - [INFO] - Waiting for practice iframe to be available...
+2025-06-21 11:16:09,605 - date_picker_page.py:[48] - [ERROR] - Timeout: Could not switch to the practice iframe.
+Traceback (most recent call last):
+  File "F:\TY_New\PythonRMG\HarshaFW_Python\pages\date_picker_page.py", line 43, in _switch_to_frame
+    WebDriverWait(self.driver, 20).until(
+  File "C:\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7e2eccda5+78885]
+	GetHandleVerifier [0x0x7ff7e2ecce00+78976]
+	(No symbol) [0x0x7ff7e2c89bca]
+	(No symbol) [0x0x7ff7e2ce0766]
+	(No symbol) [0x0x7ff7e2ce0a1c]
+	(No symbol) [0x0x7ff7e2d34467]
+	(No symbol) [0x0x7ff7e2d08bcf]
+	(No symbol) [0x0x7ff7e2d3122f]
+	(No symbol) [0x0x7ff7e2d08963]
+	(No symbol) [0x0x7ff7e2cd16b1]
+	(No symbol) [0x0x7ff7e2cd2443]
+	GetHandleVerifier [0x0x7ff7e31a4eed+3061101]
+	GetHandleVerifier [0x0x7ff7e319f33d+3037629]
+	GetHandleVerifier [0x0x7ff7e31be592+3165202]
+	GetHandleVerifier [0x0x7ff7e2ee730e+186766]
+	GetHandleVerifier [0x0x7ff7e2eeeb3f+217535]
+	GetHandleVerifier [0x0x7ff7e2ed59b4+114740]
+	GetHandleVerifier [0x0x7ff7e2ed5b69+115177]
+	GetHandleVerifier [0x0x7ff7e2ebc368+10728]
+	BaseThreadInitThunk [0x0x7ff9b2e67374+20]
+	RtlUserThreadStart [0x0x7ff9b34dcc91+33]
+
+2025-06-21 11:16:09,703 - base_test.py:[113] - [ERROR] - Test 'test_select_date_with_dropdowns' failed. Capturing Allure screenshot.
+2025-06-21 11:16:10,850 - base_test.py:[126] - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_select_date_with_dropdowns_20250621_111609.png
+2025-06-21 11:16:10,850 - base_test.py:[61] - [INFO] - --- Finished test: test_select_date_with_dropdowns ---
+2025-06-21 11:16:13,122 - conftest.py:[54] - [INFO] - --- Test run finished. ---

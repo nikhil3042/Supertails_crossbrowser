@@ -1,0 +1,166 @@
+[32m2025-10-28 17:27:59,676 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog[chrome] on CHROME ---[0m
+[32m2025-10-28 17:27:59,679 - base_test.py:[47] - [INFO] - Running test on browser: CHROME[0m
+[32m2025-10-28 17:27:59,679 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)[0m
+[32m2025-10-28 17:27:59,679 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile[0m
+[32m2025-10-28 17:28:00,752 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.[0m
+[32m2025-10-28 17:28:00,890 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/[0m
+[32m2025-10-28 17:28:02,498 - product_catalog.py:[17] - [INFO] - searching for product fdog food[0m
+[32m2025-10-28 17:28:03,591 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')[0m
+[33m2025-10-28 17:28:04,736 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click[0m
+[32m2025-10-28 17:28:05,811 - product_catalog.py:[27] - [INFO] - getting for products[0m
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\nikhi\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikhi\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 182: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.5\plugins\python-ce\helpers\pycharm\_jb_pytest_runner.py", line 75, in <module>
+    sys.exit(pytest.main(args, plugins_to_load + [Plugin]))
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\config\__init__.py", line 175, in main
+    ret: ExitCode | int = config.hook.pytest_cmdline_main(config=config)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 336, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 289, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 343, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 367, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 117, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 136, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 245, in call_and_report
+    call = CallInfo.from_call(
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 344, in from_call
+    result: TResult | None = func()
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 246, in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 178, in pytest_runtest_call
+    item.runtest()
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\python.py", line 1671, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\python.py", line 157, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "D:\supertails_automation\tests\test_integration_cart_catalog.py", line 35, in test_add_product_to_cart_from_catalog
+    self.logger.info(f"Products found: {products}")
+Message: "Products found: ['Henlo Baked Chicken & Liver Adult And Puppy Dog Dry Food | 100% Human Grade Ingredients\\n₹339\\n(₹42/100g)\\nMRP ₹379 11% OFF\\n800g\\n2.8kg\\n5.6kg (2x2.8kg)\\n8.4kg (3x2.8kg)\\n14kg (5x2.8kg)\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n5.0\\n10\\nNew Launch\\nSave up to ₹400 on ₹1000+ orders with code NEWHENLO', 'Pedigree Chicken And Vegetables Adult Dog Dry Food\\n₹3,432\\n(₹17/100g)\\nMRP ₹3,900 12% OFF\\n20kg\\n15kg\\n10kg\\n5.5kg\\n2.8kg\\n1kg\\n370g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.8\\n150\\nBestseller\\nEXTRA Off Upto ₹400 above ₹2500. Use code ZOOMIE5', 'Royal Canin Maxi Puppy Dog Dry Food\\n₹13,958\\n(₹69/100g)\\nMRP ₹15,880 12% OFF\\n20kg (2x10kg)\\n12kg (3x4kg)\\n10kg\\n4kg\\n2.5kg\\n1kg\\n220g\\n4kg(Dry)+10x140g(Wet)\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.7\\n69\\nBestseller\\nEXTRA 3% Off above ₹1200. Use code RC3', 'Pro Plan Chicken Large Breed Adult Dog Dry Food (New Improved Formula)\\n₹9,844\\n(₹65/100g)\\nMRP ₹10,950 10% OFF\\n15kg\\n3kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.1\\n7\\nBestseller\\nEXTRA 4% off. Use code LUXE4', 'Drools Chicken And Egg Adult Dog Dry Food\\n₹3,059\\n(₹15/100g)\\nMRP ₹3,599 15% OFF\\n20kg\\n4.2kg (3+1.2kg Free)\\n1.2kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.5\\n88\\nBestseller\\nEXTRA 5% Off above ₹1000. Use code DROOLS5', 'Farmina N&D Quinoa Quail Coconut & Turmeric Skin & Coat Medium And Maxi Dog Dry Food\\n₹3,123\\n(₹124/100g)\\nMRP ₹3,590 13% OFF\\n2.5kg\\nWed, 5th Nov\\nADD TO CART\\n5.0\\n1\\nEXTRA 4% off. Use code LUXE4', 'Henlo Chicken And Egg Baked Dry Food For Adult Dogs & Puppies | 100% Human Grade Ingredients\\n₹3,849\\n(₹68/100g)\\nMRP ₹4,700 18% OFF\\n5.6kg (2x2.8kg)\\n800g\\n8.4kg (3x2.8kg)\\n14kg (5x2.8kg)\\n2.8kg\\n100g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.7\\n206\\nProtein Packed\\nEXTRA Off Upto ₹450 on Orders Above 1600. Use code HENLO', 'Bark Out Loud Salmon & Turkey Mini & Small Breed Adult Dog Dry Food\\n₹3,204\\n(₹66/100g)\\nMRP ₹3,600 11% OFF\\n4.8kg\\n1kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n5.0\\n4\\nEXTRA 4% off. Use code LUXE4', 'Bowlers Nutrimax Chicken And Vegetables Adult Dog Dry Food\\n₹549\\n(₹18/100g)\\nMRP ₹610 10% OFF\\n3kg\\n400g\\n1.2kg\\n20kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n2.8\\n4\\nNew\\nEXTRA 5% off. Use code BOWLER5', 'Pro Plan Chicken Large Breed Puppy Dog Dry Food (New Improved Formula)\\n₹881\\n(₹88/100g)\\nMRP ₹980 10% OFF\\n1kg\\n15kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n5.0\\n3\\nEXTRA 4% off. Use code LUXE4', 'Kennel Kitchen Chicken With Superfoods Pumpkin And Turmeric Adult Dog Dry Food\\n₹599\\n(₹19/100g)\\nMRP ₹599\\n3kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\nNew\\nEXTRA 5% Off above 800. Use code KENNEL5', 'Carniwel Fresh Lamb Large Breed Puppy Dog Dry Food\\n₹3,963\\n(₹66/100g)\\nMRP ₹4,608 14% OFF\\n2x3kg\\n3kg\\nWed, 5th Nov\\nADD TO CART\\n5.0\\n27\\nExclusive\\nEXTRA 5% off. Use code CARNIWEL5', 'Drools Optimum Performance Adult Dog Dry Food\\n₹2,787\\n(₹13/100g)\\nMRP ₹3,100 10% OFF\\n20kg\\n10kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.7\\n59\\nBestseller\\nEXTRA 5% Off above ₹1000. Use code DROOLS5', 'Bark Out Loud Essentials Real Chicken All Breed Puppy Dog Dry Food\\n₹3,060\\n(₹34/100g)\\nMRP ₹3,600 15% OFF\\n9kg (3x3kg)\\n6kg (2x3kg)\\n3kg\\n1kg\\nWed, 5th Nov\\nADD TO CART\\n5.0\\n7\\nNew\\nEXTRA 4% off. Use code LUXE4', 'Homiee & Ginger Grain Free Air Dried Puppy & Adult Dog Dry Food\\n₹1,798\\n(₹99/100g)\\nMRP ₹1,998 10% OFF\\n2x907g\\n907g + 45gFree\\n907g\\n2x100g\\n100g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.5\\n13\\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Versele Laga Opti Life Chicken & Rice Medium Dry Puppy Food\\n₹2,970\\n(₹118/100g)\\nMRP ₹3,300 10% OFF\\n2.5kg\\n2.5kg+710mL Bowl Free\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.5\\n2\\nNew\\nEXTRA ₹250 off above ₹6000. Use code SAVE250', 'Pedigree PRO Expert Nutrition Active Adult (18 Months Onwards) Large Breed Dog Dry Food\\n₹5,863\\n(₹29/100g)\\nMRP ₹6,930 15% OFF\\n20kg\\n10kg\\n6kg (2x3kg)\\n3kg\\n1.2kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.6\\n27\\nBestseller\\nEXTRA Off Upto ₹400 above ₹2500. Use code ZOOMIE5', 'Bark Out Loud Thrive Chicken Flavour Adult Dog Dry Food\\n₹900\\n(₹32/100g)\\nMRP ₹900\\n2.8kg\\n800g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\nNew\\nEXTRA 5% off. Use code LUXE5', 'Avant Furst Chicken And Vegetable Adult Dog Dry Food\\n₹95\\n(₹23/100g)\\nMRP ₹100 5% OFF\\n400g\\n1kg\\n2.8kg\\n10kg\\n20kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\nNew', 'Drools Focus Super Premium Adult Dog Dry Food | Corn & Wheat Free Formula\\n₹4,670\\n(₹35/100g)\\nMRP ₹5,500 15% OFF\\n12kg+1kg(Free Inside)\\n4kg\\n1.2kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.3\\n6\\nBestseller\\nEXTRA 4% off above ₹2500. Use code FOCUS', 'Kennel Kitchen Lamb Sticks With Pumpkin Stick Dog Treats\\n₹567\\n(₹189/100g)\\nMRP ₹597 5% OFF\\n3x100g\\n2x100g\\n100g\\n2x500g\\n500g\\n3x500g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.8\\n4\\nEXTRA 5% off. Use code TREATS5', 'Pro Plan Chicken Mother And Puppy Starter Dog Dry Food (New Improved Formula)\\n₹890\\n(₹89/100g)\\nMRP ₹990 10% OFF\\n1kg\\n12kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n3.0\\n1\\nEXTRA 4% off. Use code LUXE4', 'Royal Canin Shih Tzu Adult Dog Dry Food\\n₹6,118\\n(₹101/100g)\\nMRP ₹6,960 12% OFF\\n6kg (2x3kg)\\n3kg\\n1.5kg\\n3kg(Dry)+12x85g(Wet)\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.9\\n18\\nNew\\nEXTRA 3% Off above ₹1200. Use code RC3', 'Homiee & Ginger Power Bowl Chicken & Barley Fresh Food For Dogs\\n₹1,791\\n(₹89/100g)\\nMRP ₹1,990 10% OFF\\n10x200g\\n3x200g\\n2x200g\\n200g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.8\\n6\\nEXTRA 5% off. Use code TREATS5', 'Active Chicken And Vegetables Adult Dog Dry Food (Buy 1 Get 1)\\n₹2,599\\n(₹12/100g)\\nMRP ₹2,599\\n10kg+10kg\\n3kg+3kg\\n1.2kg+1.2kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n5.0\\n1\\nNew\\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Bennys Bowl Chicken And Rice Dog Fresh And Wet Food\\n₹214\\n(₹71/100g)\\nMRP ₹225 5% OFF\\n300g\\n100g\\nWed, 5th Nov\\nADD TO CART\\n5.0\\n1\\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Avant Furst Chicken And Vegetable Puppy Dry Food\\n₹104\\n(₹26/100g)\\nMRP ₹110 5% OFF\\n400g\\n1kg\\n2.8kg\\n10kg\\n20kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\nNew', 'Farmina N&D Pumpkin Chicken & Pomegranate Grain Free Adult Mini Dog Dry Food\\n₹11,409\\n(₹81/100g)\\nMRP ₹12,980 12% OFF\\n14kg (2x7kg)\\n7kg\\n5kg (2x2.5kg)\\n2.5kg\\n1.6kg (2x800g)\\n800g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n5.0\\n2\\nEXTRA 4% off. Use code LUXE4', 'Pedigree Chicken And Liver Chunks In Gravy Adult Dog Wet Food (70g)\\n₹5,280\\n(₹251/100g)\\nMRP ₹6,000 12% OFF\\n120x70g\\n90x70g\\n60x70g\\n30x70g\\n15x70g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.8\\n67\\nBestseller\\nEXTRA Off Upto ₹400 above ₹2500. Use code ZOOMIE5', 'Mankind Petstar Salmon & Rice Puppy Dog Dry Food\\n₹1,699\\n(₹56/100g)\\nMRP ₹1,699\\n3kg\\n1kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n5.0\\n1\\nNew\\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Gnawlers Puppy Snack Lamb Twist Stick, Kennel Kitchen Chicken Flaxseed Stick Dog Treats Combo\\n₹290\\nMRP ₹299 3% OFF\\n80g(5pcs)+100g\\nMon, 3rd Nov\\nADD TO CART\\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Henlo Chicken & Vegetable Baked Dry Food For Adult Dogs | 100% Human Grade Ingredients\\n₹2,149\\n(₹76/100g)\\nMRP ₹2,500 14% OFF\\n2.8kg\\n8.4kg (3x2.8kg)\\n14kg (5x2.8kg)\\n5.6kg (2x2.8kg)\\n800g\\n100g\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.7\\n384\\nMost Loved\\nEXTRA Off Upto ₹450 on Orders Above 1600. Use code HENLO', 'Bark Out Loud Essentials Real Chicken Medium And Large Breed Adult Dog Dry Food\\n₹2,898\\n(₹32/100g)\\nMRP ₹3,150 8% OFF\\n9kg (3x3kg)\\n6kg (2x3kg)\\n3kg\\n1kg\\n9.8kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.5\\n8\\nEXTRA 4% off. Use code LUXE4', 'Bowlers Chicken And Milk Nutrimax Puppy Dog Dry Food\\n₹1,755\\n(₹17/100g)\\nMRP ₹1,950 10% OFF\\n10kg\\n3kg\\n1.2kg\\n400g\\n20kg\\nThu, 6th Nov\\nADD TO CART\\n4.0\\n1\\nNew\\nEXTRA 5% off. Use code BOWLER5', 'Versele Laga Opti Life Chicken & Rice Medium Adult Dry Dog Food\\n₹2,619\\n(₹104/100g)\\nMRP ₹2,910 10% OFF\\n2.5kg\\n2.5kg+710mL Bowl Free\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n5.0\\n2\\nNew\\nEXTRA ₹250 off above ₹6000. Use code SAVE250', 'Orijen Original Dog Dry Food (All Breeds & Ages)\\n₹16,999\\n(₹99/100g)\\nMRP ₹16,999\\n17kg\\n11.4kg\\n6kg\\n2kg\\nTue, 4th Nov\\nADD TO CART\\n5.0\\n9\\nBestseller\\nADDITIONAL 6% off on ICICI credit cards up to ₹250. Use Code ICICI', 'Pedigree Chicken And Milk Puppy Dog Dry Food\\n₹3,686\\n(₹18/100g)\\nMRP ₹4,100 10% OFF\\n20kg\\n15kg\\n10kg\\n5.5kg\\n2.8kg\\n1kg\\n370g\\n1.2kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.8\\n77\\nBestseller\\nEXTRA Off Upto ₹400 above ₹2500. Use code ZOOMIE5', 'SmartHeart Power Pack Chicken Flavour Adult Dog Dry Food\\n₹5,014\\n(₹25/100g)\\nMRP ₹5,899 15% OFF\\n20kg\\n10kg\\n3kg\\n1kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.8\\n18\\nBestseller\\nADDITIONAL 6% off on ICICI credit cards up to ₹250. Use Code ICICI', 'Purepet Chicken & Vegetable Adult Dog Dry Food\\n₹2,480\\n(₹12/100g)\\nMRP ₹2,699 8% OFF\\n20kg\\n9kg\\n7kg\\n2kg (2x1kg)\\n1kg\\nFast by 10 PM, Tomorrow\\nADD TO CART\\n4.4\\n63\\nBestseller\\nADDITIONAL 6% off on ICICI credit cards up to ₹250. Use Code ICICI', 'Pro Plan Chicken Medium Breed Adult Dog Dry Food (New Improved Formula)\\n₹9,844\\n(₹65/100g)\\nMRP ₹10,950 10% OFF\\n15kg\\n9kg (3x3kg)\\n6kg (2x3kg)\\n3kg\\nTue, 4th Nov\\nADD TO CART\\n5.0\\n1\\nEXTRA 4% off. Use code LUXE4']"
+Arguments: ()
+[32m2025-10-28 17:28:07,605 - test_integration_cart_catalog.py:[35] - [INFO] - Products found: ['Henlo Baked Chicken & Liver Adult And Puppy Dog Dry Food | 100% Human Grade Ingredients\n₹339\n(₹42/100g)\nMRP ₹379 11% OFF\n800g\n2.8kg\n5.6kg (2x2.8kg)\n8.4kg (3x2.8kg)\n14kg (5x2.8kg)\nFast by 10 PM, Tomorrow\nADD TO CART\n5.0\n10\nNew Launch\nSave up to ₹400 on ₹1000+ orders with code NEWHENLO', 'Pedigree Chicken And Vegetables Adult Dog Dry Food\n₹3,432\n(₹17/100g)\nMRP ₹3,900 12% OFF\n20kg\n15kg\n10kg\n5.5kg\n2.8kg\n1kg\n370g\nFast by 10 PM, Tomorrow\nADD TO CART\n4.8\n150\nBestseller\nEXTRA Off Upto ₹400 above ₹2500. Use code ZOOMIE5', 'Royal Canin Maxi Puppy Dog Dry Food\n₹13,958\n(₹69/100g)\nMRP ₹15,880 12% OFF\n20kg (2x10kg)\n12kg (3x4kg)\n10kg\n4kg\n2.5kg\n1kg\n220g\n4kg(Dry)+10x140g(Wet)\nFast by 10 PM, Tomorrow\nADD TO CART\n4.7\n69\nBestseller\nEXTRA 3% Off above ₹1200. Use code RC3', 'Pro Plan Chicken Large Breed Adult Dog Dry Food (New Improved Formula)\n₹9,844\n(₹65/100g)\nMRP ₹10,950 10% OFF\n15kg\n3kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.1\n7\nBestseller\nEXTRA 4% off. Use code LUXE4', 'Drools Chicken And Egg Adult Dog Dry Food\n₹3,059\n(₹15/100g)\nMRP ₹3,599 15% OFF\n20kg\n4.2kg (3+1.2kg Free)\n1.2kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.5\n88\nBestseller\nEXTRA 5% Off above ₹1000. Use code DROOLS5', 'Farmina N&D Quinoa Quail Coconut & Turmeric Skin & Coat Medium And Maxi Dog Dry Food\n₹3,123\n(₹124/100g)\nMRP ₹3,590 13% OFF\n2.5kg\nWed, 5th Nov\nADD TO CART\n5.0\n1\nEXTRA 4% off. Use code LUXE4', 'Henlo Chicken And Egg Baked Dry Food For Adult Dogs & Puppies | 100% Human Grade Ingredients\n₹3,849\n(₹68/100g)\nMRP ₹4,700 18% OFF\n5.6kg (2x2.8kg)\n800g\n8.4kg (3x2.8kg)\n14kg (5x2.8kg)\n2.8kg\n100g\nFast by 10 PM, Tomorrow\nADD TO CART\n4.7\n206\nProtein Packed\nEXTRA Off Upto ₹450 on Orders Above 1600. Use code HENLO', 'Bark Out Loud Salmon & Turkey Mini & Small Breed Adult Dog Dry Food\n₹3,204\n(₹66/100g)\nMRP ₹3,600 11% OFF\n4.8kg\n1kg\nFast by 10 PM, Tomorrow\nADD TO CART\n5.0\n4\nEXTRA 4% off. Use code LUXE4', 'Bowlers Nutrimax Chicken And Vegetables Adult Dog Dry Food\n₹549\n(₹18/100g)\nMRP ₹610 10% OFF\n3kg\n400g\n1.2kg\n20kg\nFast by 10 PM, Tomorrow\nADD TO CART\n2.8\n4\nNew\nEXTRA 5% off. Use code BOWLER5', 'Pro Plan Chicken Large Breed Puppy Dog Dry Food (New Improved Formula)\n₹881\n(₹88/100g)\nMRP ₹980 10% OFF\n1kg\n15kg\nFast by 10 PM, Tomorrow\nADD TO CART\n5.0\n3\nEXTRA 4% off. Use code LUXE4', 'Kennel Kitchen Chicken With Superfoods Pumpkin And Turmeric Adult Dog Dry Food\n₹599\n(₹19/100g)\nMRP ₹599\n3kg\nFast by 10 PM, Tomorrow\nADD TO CART\nNew\nEXTRA 5% Off above 800. Use code KENNEL5', 'Carniwel Fresh Lamb Large Breed Puppy Dog Dry Food\n₹3,963\n(₹66/100g)\nMRP ₹4,608 14% OFF\n2x3kg\n3kg\nWed, 5th Nov\nADD TO CART\n5.0\n27\nExclusive\nEXTRA 5% off. Use code CARNIWEL5', 'Drools Optimum Performance Adult Dog Dry Food\n₹2,787\n(₹13/100g)\nMRP ₹3,100 10% OFF\n20kg\n10kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.7\n59\nBestseller\nEXTRA 5% Off above ₹1000. Use code DROOLS5', 'Bark Out Loud Essentials Real Chicken All Breed Puppy Dog Dry Food\n₹3,060\n(₹34/100g)\nMRP ₹3,600 15% OFF\n9kg (3x3kg)\n6kg (2x3kg)\n3kg\n1kg\nWed, 5th Nov\nADD TO CART\n5.0\n7\nNew\nEXTRA 4% off. Use code LUXE4', 'Homiee & Ginger Grain Free Air Dried Puppy & Adult Dog Dry Food\n₹1,798\n(₹99/100g)\nMRP ₹1,998 10% OFF\n2x907g\n907g + 45gFree\n907g\n2x100g\n100g\nFast by 10 PM, Tomorrow\nADD TO CART\n4.5\n13\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Versele Laga Opti Life Chicken & Rice Medium Dry Puppy Food\n₹2,970\n(₹118/100g)\nMRP ₹3,300 10% OFF\n2.5kg\n2.5kg+710mL Bowl Free\nFast by 10 PM, Tomorrow\nADD TO CART\n4.5\n2\nNew\nEXTRA ₹250 off above ₹6000. Use code SAVE250', 'Pedigree PRO Expert Nutrition Active Adult (18 Months Onwards) Large Breed Dog Dry Food\n₹5,863\n(₹29/100g)\nMRP ₹6,930 15% OFF\n20kg\n10kg\n6kg (2x3kg)\n3kg\n1.2kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.6\n27\nBestseller\nEXTRA Off Upto ₹400 above ₹2500. Use code ZOOMIE5', 'Bark Out Loud Thrive Chicken Flavour Adult Dog Dry Food\n₹900\n(₹32/100g)\nMRP ₹900\n2.8kg\n800g\nFast by 10 PM, Tomorrow\nADD TO CART\nNew\nEXTRA 5% off. Use code LUXE5', 'Avant Furst Chicken And Vegetable Adult Dog Dry Food\n₹95\n(₹23/100g)\nMRP ₹100 5% OFF\n400g\n1kg\n2.8kg\n10kg\n20kg\nFast by 10 PM, Tomorrow\nADD TO CART\nNew', 'Drools Focus Super Premium Adult Dog Dry Food | Corn & Wheat Free Formula\n₹4,670\n(₹35/100g)\nMRP ₹5,500 15% OFF\n12kg+1kg(Free Inside)\n4kg\n1.2kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.3\n6\nBestseller\nEXTRA 4% off above ₹2500. Use code FOCUS', 'Kennel Kitchen Lamb Sticks With Pumpkin Stick Dog Treats\n₹567\n(₹189/100g)\nMRP ₹597 5% OFF\n3x100g\n2x100g\n100g\n2x500g\n500g\n3x500g\nFast by 10 PM, Tomorrow\nADD TO CART\n4.8\n4\nEXTRA 5% off. Use code TREATS5', 'Pro Plan Chicken Mother And Puppy Starter Dog Dry Food (New Improved Formula)\n₹890\n(₹89/100g)\nMRP ₹990 10% OFF\n1kg\n12kg\nFast by 10 PM, Tomorrow\nADD TO CART\n3.0\n1\nEXTRA 4% off. Use code LUXE4', 'Royal Canin Shih Tzu Adult Dog Dry Food\n₹6,118\n(₹101/100g)\nMRP ₹6,960 12% OFF\n6kg (2x3kg)\n3kg\n1.5kg\n3kg(Dry)+12x85g(Wet)\nFast by 10 PM, Tomorrow\nADD TO CART\n4.9\n18\nNew\nEXTRA 3% Off above ₹1200. Use code RC3', 'Homiee & Ginger Power Bowl Chicken & Barley Fresh Food For Dogs\n₹1,791\n(₹89/100g)\nMRP ₹1,990 10% OFF\n10x200g\n3x200g\n2x200g\n200g\nFast by 10 PM, Tomorrow\nADD TO CART\n4.8\n6\nEXTRA 5% off. Use code TREATS5', 'Active Chicken And Vegetables Adult Dog Dry Food (Buy 1 Get 1)\n₹2,599\n(₹12/100g)\nMRP ₹2,599\n10kg+10kg\n3kg+3kg\n1.2kg+1.2kg\nFast by 10 PM, Tomorrow\nADD TO CART\n5.0\n1\nNew\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Bennys Bowl Chicken And Rice Dog Fresh And Wet Food\n₹214\n(₹71/100g)\nMRP ₹225 5% OFF\n300g\n100g\nWed, 5th Nov\nADD TO CART\n5.0\n1\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Avant Furst Chicken And Vegetable Puppy Dry Food\n₹104\n(₹26/100g)\nMRP ₹110 5% OFF\n400g\n1kg\n2.8kg\n10kg\n20kg\nFast by 10 PM, Tomorrow\nADD TO CART\nNew', 'Farmina N&D Pumpkin Chicken & Pomegranate Grain Free Adult Mini Dog Dry Food\n₹11,409\n(₹81/100g)\nMRP ₹12,980 12% OFF\n14kg (2x7kg)\n7kg\n5kg (2x2.5kg)\n2.5kg\n1.6kg (2x800g)\n800g\nFast by 10 PM, Tomorrow\nADD TO CART\n5.0\n2\nEXTRA 4% off. Use code LUXE4', 'Pedigree Chicken And Liver Chunks In Gravy Adult Dog Wet Food (70g)\n₹5,280\n(₹251/100g)\nMRP ₹6,000 12% OFF\n120x70g\n90x70g\n60x70g\n30x70g\n15x70g\nFast by 10 PM, Tomorrow\nADD TO CART\n4.8\n67\nBestseller\nEXTRA Off Upto ₹400 above ₹2500. Use code ZOOMIE5', 'Mankind Petstar Salmon & Rice Puppy Dog Dry Food\n₹1,699\n(₹56/100g)\nMRP ₹1,699\n3kg\n1kg\nFast by 10 PM, Tomorrow\nADD TO CART\n5.0\n1\nNew\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Gnawlers Puppy Snack Lamb Twist Stick, Kennel Kitchen Chicken Flaxseed Stick Dog Treats Combo\n₹290\nMRP ₹299 3% OFF\n80g(5pcs)+100g\nMon, 3rd Nov\nADD TO CART\nExtra 12% Off on First App Purchase. Use code APPNEWST', 'Henlo Chicken & Vegetable Baked Dry Food For Adult Dogs | 100% Human Grade Ingredients\n₹2,149\n(₹76/100g)\nMRP ₹2,500 14% OFF\n2.8kg\n8.4kg (3x2.8kg)\n14kg (5x2.8kg)\n5.6kg (2x2.8kg)\n800g\n100g\nFast by 10 PM, Tomorrow\nADD TO CART\n4.7\n384\nMost Loved\nEXTRA Off Upto ₹450 on Orders Above 1600. Use code HENLO', 'Bark Out Loud Essentials Real Chicken Medium And Large Breed Adult Dog Dry Food\n₹2,898\n(₹32/100g)\nMRP ₹3,150 8% OFF\n9kg (3x3kg)\n6kg (2x3kg)\n3kg\n1kg\n9.8kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.5\n8\nEXTRA 4% off. Use code LUXE4', 'Bowlers Chicken And Milk Nutrimax Puppy Dog Dry Food\n₹1,755\n(₹17/100g)\nMRP ₹1,950 10% OFF\n10kg\n3kg\n1.2kg\n400g\n20kg\nThu, 6th Nov\nADD TO CART\n4.0\n1\nNew\nEXTRA 5% off. Use code BOWLER5', 'Versele Laga Opti Life Chicken & Rice Medium Adult Dry Dog Food\n₹2,619\n(₹104/100g)\nMRP ₹2,910 10% OFF\n2.5kg\n2.5kg+710mL Bowl Free\nFast by 10 PM, Tomorrow\nADD TO CART\n5.0\n2\nNew\nEXTRA ₹250 off above ₹6000. Use code SAVE250', 'Orijen Original Dog Dry Food (All Breeds & Ages)\n₹16,999\n(₹99/100g)\nMRP ₹16,999\n17kg\n11.4kg\n6kg\n2kg\nTue, 4th Nov\nADD TO CART\n5.0\n9\nBestseller\nADDITIONAL 6% off on ICICI credit cards up to ₹250. Use Code ICICI', 'Pedigree Chicken And Milk Puppy Dog Dry Food\n₹3,686\n(₹18/100g)\nMRP ₹4,100 10% OFF\n20kg\n15kg\n10kg\n5.5kg\n2.8kg\n1kg\n370g\n1.2kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.8\n77\nBestseller\nEXTRA Off Upto ₹400 above ₹2500. Use code ZOOMIE5', 'SmartHeart Power Pack Chicken Flavour Adult Dog Dry Food\n₹5,014\n(₹25/100g)\nMRP ₹5,899 15% OFF\n20kg\n10kg\n3kg\n1kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.8\n18\nBestseller\nADDITIONAL 6% off on ICICI credit cards up to ₹250. Use Code ICICI', 'Purepet Chicken & Vegetable Adult Dog Dry Food\n₹2,480\n(₹12/100g)\nMRP ₹2,699 8% OFF\n20kg\n9kg\n7kg\n2kg (2x1kg)\n1kg\nFast by 10 PM, Tomorrow\nADD TO CART\n4.4\n63\nBestseller\nADDITIONAL 6% off on ICICI credit cards up to ₹250. Use Code ICICI', 'Pro Plan Chicken Medium Breed Adult Dog Dry Food (New Improved Formula)\n₹9,844\n(₹65/100g)\nMRP ₹10,950 10% OFF\n15kg\n9kg (3x3kg)\n6kg (2x3kg)\n3kg\nTue, 4th Nov\nADD TO CART\n5.0\n1\nEXTRA 4% off. Use code LUXE4'][0m
+[32m2025-10-28 17:28:07,609 - product_catalog.py:[33] - [INFO] - clicking the product[0m
+[32m2025-10-28 17:28:09,106 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.[0m
+[32m2025-10-28 17:28:09,106 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page[0m
+[32m2025-10-28 17:28:10,310 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Add to Cart")]/..')[0m
+[32m2025-10-28 17:28:10,310 - product_catalog.py:[45] - [INFO] - Add to Cart button clicked successfully[0m
+[32m2025-10-28 17:28:10,310 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.[0m
+[32m2025-10-28 17:28:15,311 - cart.py:[15] - [INFO] - opening cart[0m
+[32m2025-10-28 17:28:17,878 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')[0m
+[32m2025-10-28 17:28:20,880 - cart.py:[19] - [INFO] - getting items in cart[0m
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\nikhi\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikhi\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 102: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.5\plugins\python-ce\helpers\pycharm\_jb_pytest_runner.py", line 75, in <module>
+    sys.exit(pytest.main(args, plugins_to_load + [Plugin]))
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\config\__init__.py", line 175, in main
+    ret: ExitCode | int = config.hook.pytest_cmdline_main(config=config)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 336, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 289, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 343, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 367, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 117, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 136, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 245, in call_and_report
+    call = CallInfo.from_call(
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 344, in from_call
+    result: TResult | None = func()
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 246, in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 178, in pytest_runtest_call
+    item.runtest()
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\python.py", line 1671, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\python.py", line 157, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "D:\supertails_automation\tests\test_integration_cart_catalog.py", line 53, in test_add_product_to_cart_from_catalog
+    self.logger.info(f"Cart contents: {items}")
+Message: "Cart contents: ['Quantity\\n−\\n+\\nRoyal Canin Maxi Puppy Dog Dry Food\\nSize - 20kg (2x10kg)\\n₹13,958\\n₹13,958\\n₹15,880\\n₹15,880\\n₹1,922\\n₹1,922\\nsaved\\nFast by 10 PM, Tomorrow']"
+Arguments: ()
+[32m2025-10-28 17:28:20,926 - test_integration_cart_catalog.py:[53] - [INFO] - Cart contents: ['Quantity\n−\n+\nRoyal Canin Maxi Puppy Dog Dry Food\nSize - 20kg (2x10kg)\n₹13,958\n₹13,958\n₹15,880\n₹15,880\n₹1,922\n₹1,922\nsaved\nFast by 10 PM, Tomorrow'][0m
+[32m2025-10-28 17:28:20,934 - base_test.py:[73] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog[chrome] on CHROME ---[0m

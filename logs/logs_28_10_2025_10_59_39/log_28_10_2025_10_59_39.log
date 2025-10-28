@@ -1,0 +1,46 @@
+2025-10-28 10:59:39,376 - conftest.py:[52] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_10_59_39\log_28_10_2025_10_59_39.log ---
+2025-10-28 10:59:39,376 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog ---
+2025-10-28 10:59:39,379 - base_test.py:[46] - [INFO] - Running test on browser: CHROME
+2025-10-28 10:59:39,379 - base_test.py:[46] - [INFO] - Running test on browser: EDGE
+2025-10-28 10:59:39,379 - base_test.py:[76] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 10:59:41,224 - base_test.py:[132] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 10:59:41,448 - test_integration_cart_catalog.py:[25] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 11:00:08,196 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 11:00:08,336 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 11:00:09,442 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 11:00:34,104 - test_integration_cart_catalog.py:[31] - [DEBUG] - Search executed successfully.
+2025-10-28 11:00:34,104 - product_catalog.py:[33] - [INFO] - adding the product to cart
+2025-10-28 11:00:44,168 - test_integration_cart_catalog.py:[36] - [ERROR] - Error adding product to cart: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//button[contains(text(),'Add to Cart')]"}
+  (Session info: MicrosoftEdge=141.0.3537.99); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7263e2605+51877]
+	GetHandleVerifier [0x0x7ff7263e2664+51972]
+	GetHandleVerifier [0x0x7ff726598bf5+1847445]
+	(No symbol) [0x0x7ff7261a045b]
+	(No symbol) [0x0x7ff7261a071b]
+	(No symbol) [0x0x7ff7261966cc]
+	(No symbol) [0x0x7ff7261c216f]
+	(No symbol) [0x0x7ff72619667b]
+	(No symbol) [0x0x7ff72619652d]
+	(No symbol) [0x0x7ff7261c23e0]
+	(No symbol) [0x0x7ff72619667b]
+	(No symbol) [0x0x7ff7261df3d2]
+	(No symbol) [0x0x7ff7261c1df3]
+	(No symbol) [0x0x7ff726195b36]
+	(No symbol) [0x0x7ff726194d80]
+	(No symbol) [0x0x7ff726195973]
+	(No symbol) [0x0x7ff72625e4a5]
+	(No symbol) [0x0x7ff72625a75d]
+	GetHandleVerifier [0x0x7ff72640ce43+226019]
+	GetHandleVerifier [0x0x7ff7263fc011+156849]
+	GetHandleVerifier [0x0x7ff726404509+190889]
+	GetHandleVerifier [0x0x7ff7263e9744+80868]
+	GetHandleVerifier [0x0x7ff7263e9893+81203]
+	GetHandleVerifier [0x0x7ff7263d7e16+8886]
+	BaseThreadInitThunk [0x0x7ffc2e74e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2f9df36c+44]
+
+2025-10-28 11:00:44,349 - base_test.py:[138] - [ERROR] - Test 'test_add_product_to_cart_from_catalog' failed. Capturing Allure screenshot.
+2025-10-28 11:00:45,515 - base_test.py:[151] - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_add_product_to_cart_from_catalog_20251028_110044.png
+2025-10-28 11:00:45,516 - base_test.py:[68] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog ---
+2025-10-28 11:00:48,412 - conftest.py:[54] - [INFO] - --- Test run finished. ---

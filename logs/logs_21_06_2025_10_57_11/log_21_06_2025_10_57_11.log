@@ -1,0 +1,28 @@
+2025-06-21 10:57:11,129 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_21_06_2025_10_57_11\log_21_06_2025_10_57_11.log ---
+2025-06-21 10:57:11,130 - base_test.py:[33] - [INFO] - --- Starting test: test_select_specific_date ---
+2025-06-21 10:57:11,132 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-21 10:57:11,132 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-21 10:57:12,569 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-21 10:57:15,502 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-06-21 10:57:15,502 - date_picker_page.py:[38] - [INFO] - Attempting to select date: 15-August-2025
+2025-06-21 10:57:15,523 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'datepicker')
+2025-06-21 10:57:15,594 - base_page.py:[36] - [INFO] - Successfully clicked element: ('id', 'datepicker')
+2025-06-21 10:57:15,603 - base_page.py:[113] - [INFO] - Element found: ('id', 'ui-datepicker-div')
+2025-06-21 10:57:15,627 - base_page.py:[81] - [INFO] - Retrieved text 'June' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 10:57:15,644 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 10:57:15,644 - date_picker_page.py:[60] - [INFO] - Currently viewing: June 2025
+2025-06-21 10:57:15,695 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 10:57:15,936 - base_page.py:[81] - [INFO] - Retrieved text 'July' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 10:57:15,949 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 10:57:15,949 - date_picker_page.py:[60] - [INFO] - Currently viewing: July 2025
+2025-06-21 10:57:15,991 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 10:57:16,234 - base_page.py:[81] - [INFO] - Retrieved text 'August' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 10:57:16,246 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 10:57:16,246 - date_picker_page.py:[60] - [INFO] - Currently viewing: August 2025
+2025-06-21 10:57:16,247 - date_picker_page.py:[64] - [INFO] - Correct month and year found.
+2025-06-21 10:57:16,292 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//td[@data-handler='selectDay']/a[text()='15']")
+2025-06-21 10:57:16,292 - date_picker_page.py:[79] - [INFO] - Successfully selected date: 15-August-2025
+2025-06-21 10:57:16,297 - base_page.py:[113] - [INFO] - Element found: ('id', 'datepicker')
+2025-06-21 10:57:16,305 - test_date_picker.py:[43] - [INFO] - Date was selected and verified successfully.
+2025-06-21 10:57:16,308 - base_test.py:[61] - [INFO] - --- Finished test: test_select_specific_date ---
+2025-06-21 10:57:18,652 - conftest.py:[54] - [INFO] - --- Test run finished. ---

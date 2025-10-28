@@ -1,0 +1,13 @@
+[32m2025-10-28 17:28:48,459 - base_test.py:[35] - [INFO] - --- Starting test: test_search_invalid_product[chrome] on CHROME ---[0m
+[32m2025-10-28 17:28:48,462 - base_test.py:[47] - [INFO] - Running test on browser: CHROME[0m
+[32m2025-10-28 17:28:48,462 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)[0m
+[32m2025-10-28 17:28:48,462 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile[0m
+[32m2025-10-28 17:28:49,785 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.[0m
+[32m2025-10-28 17:28:49,838 - test_product_catalog.py:[54] - [INFO] - Navigating to URL: https://supertails.com/[0m
+[32m2025-10-28 17:28:51,552 - product_catalog.py:[17] - [INFO] - searching for product frandom_invalid_product_xyz[0m
+[32m2025-10-28 17:28:53,115 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')[0m
+[33m2025-10-28 17:28:54,240 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click[0m
+[32m2025-10-28 17:28:55,724 - product_catalog.py:[53] - [INFO] - no result is found[0m
+[32m2025-10-28 17:28:56,197 - base_page.py:[81] - [INFO] - Retrieved text 'Your search for "random_invalid_product_xyz" did not return any results.' from element: ('xpath', '//div[@class="search-not-found noResult"]')[0m
+[32m2025-10-28 17:28:56,198 - test_product_catalog.py:[63] - [INFO] - No result message: Your search for "random_invalid_product_xyz" did not return any results.[0m
+[32m2025-10-28 17:28:56,201 - base_test.py:[73] - [INFO] - --- Finished test: test_search_invalid_product[chrome] on CHROME ---[0m

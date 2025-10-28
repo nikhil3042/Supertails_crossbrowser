@@ -22,6 +22,7 @@ class Environment:
         self.env_name = env_name or os.getenv('ENV', 'dev')
         self.config = self._load_config()
         self.current_env = self.config['environments'][self.env_name]
+        self.current_browser = self.config['browser']['default']
     
     def _load_config(self):
         """
@@ -57,4 +58,11 @@ class Environment:
     
     def get_logging_config(self):
         """Get logging configuration."""
-        return self.config['logging'] 
+        return self.config['logging']
+
+    def set_browser(self, browser_name):
+        """Set the active browser dynamically (e.g., chrome or edge)."""
+        if browser_name.lower() not in ['chrome', 'edge', 'firefox']:
+            raise ValueError(f"Unsupported browser: {browser_name}")
+        self.current_browser = browser_name.lower()
+        self.config['browser']['default'] = self.current_browser

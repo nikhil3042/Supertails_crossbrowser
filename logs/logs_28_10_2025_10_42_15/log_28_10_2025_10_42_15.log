@@ -1,0 +1,45 @@
+2025-10-28 10:42:15,996 - conftest.py:[52] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_10_42_15\log_28_10_2025_10_42_15.log ---
+2025-10-28 10:42:15,996 - base_test.py:[35] - [INFO] - --- Starting test: test_search_invalid_product ---
+2025-10-28 10:42:16,001 - base_test.py:[46] - [INFO] - Running test on browser: CHROME
+2025-10-28 10:42:16,002 - base_test.py:[46] - [INFO] - Running test on browser: EDGE
+2025-10-28 10:42:16,002 - base_test.py:[76] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 10:42:20,156 - base_test.py:[132] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 10:42:20,245 - test_product_catalog.py:[54] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 10:42:47,848 - product_catalog.py:[15] - [INFO] - searching for product frandom_invalid_product_xyz
+2025-10-28 10:42:48,090 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 10:42:49,213 - test_product_catalog.py:[67] - [ERROR] - Error during invalid product search: Message: element click intercepted: Element <span class="icon__fallback-text">...</span> is not clickable at point (821, 25). Other element would receive the click: <button type="submit" class="text-link site-header__search-btn site-header__search-btn--submit active">...</button>
+  (Session info: MicrosoftEdge=141.0.3537.99); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7263e2605+51877]
+	GetHandleVerifier [0x0x7ff7263e2664+51972]
+	GetHandleVerifier [0x0x7ff726598bf5+1847445]
+	(No symbol) [0x0x7ff7261a71ab]
+	(No symbol) [0x0x7ff7261a50f9]
+	(No symbol) [0x0x7ff7261a2ac5]
+	(No symbol) [0x0x7ff7261a1c45]
+	(No symbol) [0x0x7ff726196dfe]
+	(No symbol) [0x0x7ff7261c212a]
+	(No symbol) [0x0x7ff72619667b]
+	(No symbol) [0x0x7ff72619652d]
+	(No symbol) [0x0x7ff7261c23e0]
+	(No symbol) [0x0x7ff72619667b]
+	(No symbol) [0x0x7ff7261df3d2]
+	(No symbol) [0x0x7ff7261c1df3]
+	(No symbol) [0x0x7ff726195b36]
+	(No symbol) [0x0x7ff726194d80]
+	(No symbol) [0x0x7ff726195973]
+	(No symbol) [0x0x7ff72625e4a5]
+	(No symbol) [0x0x7ff72625a75d]
+	GetHandleVerifier [0x0x7ff72640ce43+226019]
+	GetHandleVerifier [0x0x7ff7263fc011+156849]
+	GetHandleVerifier [0x0x7ff726404509+190889]
+	GetHandleVerifier [0x0x7ff7263e9744+80868]
+	GetHandleVerifier [0x0x7ff7263e9893+81203]
+	GetHandleVerifier [0x0x7ff7263d7e16+8886]
+	BaseThreadInitThunk [0x0x7ffc2e74e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2f9df36c+44]
+
+2025-10-28 10:42:49,785 - base_test.py:[138] - [ERROR] - Test 'test_search_invalid_product' failed. Capturing Allure screenshot.
+2025-10-28 10:42:51,053 - base_test.py:[151] - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_search_invalid_product_20251028_104249.png
+2025-10-28 10:42:51,054 - base_test.py:[68] - [INFO] - --- Finished test: test_search_invalid_product ---
+2025-10-28 10:42:55,042 - conftest.py:[54] - [INFO] - --- Test run finished. ---

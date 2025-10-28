@@ -1,0 +1,13 @@
+[32m2025-10-28 17:28:59,522 - base_test.py:[35] - [INFO] - --- Starting test: test_search_invalid_product[edge] on EDGE ---[0m
+[32m2025-10-28 17:28:59,525 - base_test.py:[47] - [INFO] - Running test on browser: EDGE[0m
+[32m2025-10-28 17:28:59,526 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)[0m
+[32m2025-10-28 17:29:01,332 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.[0m
+[32m2025-10-28 17:29:01,402 - test_product_catalog.py:[54] - [INFO] - Navigating to URL: https://supertails.com/[0m
+[32m2025-10-28 17:29:03,365 - product_catalog.py:[17] - [INFO] - searching for product frandom_invalid_product_xyz[0m
+[32m2025-10-28 17:29:05,019 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')[0m
+[33m2025-10-28 17:29:06,115 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click[0m
+[32m2025-10-28 17:29:07,615 - product_catalog.py:[53] - [INFO] - no result is found[0m
+[32m2025-10-28 17:29:08,256 - base_page.py:[81] - [INFO] - Retrieved text 'Your search for "random_invalid_product_xyz" did not return any results.' from element: ('xpath', '//div[@class="search-not-found noResult"]')[0m
+[32m2025-10-28 17:29:08,256 - test_product_catalog.py:[63] - [INFO] - No result message: Your search for "random_invalid_product_xyz" did not return any results.[0m
+[32m2025-10-28 17:29:08,259 - base_test.py:[73] - [INFO] - --- Finished test: test_search_invalid_product[edge] on EDGE ---[0m
+[32m2025-10-28 17:29:12,196 - conftest.py:[75] - [INFO] - --- Test run finished. ---[0m

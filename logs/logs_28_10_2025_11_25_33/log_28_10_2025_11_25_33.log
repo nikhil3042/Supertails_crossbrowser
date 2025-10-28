@@ -1,0 +1,24 @@
+2025-10-28 11:25:33,514 - conftest.py:[52] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_11_25_33\log_28_10_2025_11_25_33.log ---
+2025-10-28 11:25:33,514 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog ---
+2025-10-28 11:25:33,518 - base_test.py:[46] - [INFO] - Running test on browser: CHROME
+2025-10-28 11:25:33,518 - base_test.py:[46] - [INFO] - Running test on browser: EDGE
+2025-10-28 11:25:33,518 - base_test.py:[76] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 11:25:35,718 - base_test.py:[132] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 11:25:35,806 - test_integration_cart_catalog.py:[26] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 11:26:02,046 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 11:26:02,206 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 11:26:03,354 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 11:26:27,313 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 11:26:28,517 - product_catalog.py:[33] - [INFO] - adding the product to cart
+2025-10-28 11:26:41,398 - test_integration_cart_catalog.py:[38] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-28 11:26:41,399 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 11:26:44,070 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 11:26:44,070 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 11:26:54,139 - test_integration_cart_catalog.py:[48] - [INFO] - Cart contents: []
+2025-10-28 11:26:54,140 - test_integration_cart_catalog.py:[58] - [ERROR] - Error verifying cart after add: No items found in cart after adding product.
+assert 0 > 0
+ +  where 0 = len([])
+2025-10-28 11:26:54,349 - base_test.py:[138] - [ERROR] - Test 'test_add_product_to_cart_from_catalog' failed. Capturing Allure screenshot.
+2025-10-28 11:26:55,462 - base_test.py:[151] - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_add_product_to_cart_from_catalog_20251028_112654.png
+2025-10-28 11:26:55,463 - base_test.py:[68] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog ---
+2025-10-28 11:26:59,409 - conftest.py:[54] - [INFO] - --- Test run finished. ---

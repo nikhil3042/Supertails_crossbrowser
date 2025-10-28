@@ -162,6 +162,11 @@ Ensure you have the following installed on your system:
 # Run all tests using the default environment (dev)
 pytest
 
+#for chrome or edge:
+pytest --browser=chrome
+pytest --browser=edge
+
+
 # Run tests against a specific environment (e.g., staging)
 # On Windows PowerShell:
 $env:ENV="staging"; pytest

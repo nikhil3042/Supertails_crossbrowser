@@ -1,0 +1,28 @@
+2025-10-28 11:58:45,708 - conftest.py:[52] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_11_58_45\log_28_10_2025_11_58_45.log ---
+2025-10-28 11:58:45,710 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog ---
+2025-10-28 11:58:45,725 - base_test.py:[46] - [INFO] - Running test on browser: CHROME
+2025-10-28 11:58:45,726 - base_test.py:[46] - [INFO] - Running test on browser: EDGE
+2025-10-28 11:58:45,728 - base_test.py:[76] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 11:58:48,045 - base_test.py:[132] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 11:58:48,161 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 11:59:15,998 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 11:59:16,111 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 11:59:17,205 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 11:59:20,557 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 11:59:21,752 - product_catalog.py:[33] - [INFO] - clicking the product
+2025-10-28 11:59:24,220 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-28 11:59:24,220 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page
+2025-10-28 11:59:25,093 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-28 11:59:25,094 - product_catalog.py:[45] - [INFO] - Add to Cart button clicked successfully
+2025-10-28 11:59:25,094 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.
+2025-10-28 11:59:25,095 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 11:59:26,962 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 11:59:29,962 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 11:59:40,016 - test_integration_cart_catalog.py:[52] - [INFO] - Cart contents: []
+2025-10-28 11:59:40,016 - test_integration_cart_catalog.py:[62] - [ERROR] - Error verifying cart after add: No items found in cart after adding product.
+assert 0 > 0
+ +  where 0 = len([])
+2025-10-28 11:59:40,230 - base_test.py:[138] - [ERROR] - Test 'test_add_product_to_cart_from_catalog' failed. Capturing Allure screenshot.
+2025-10-28 11:59:41,368 - base_test.py:[151] - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_add_product_to_cart_from_catalog_20251028_115940.png
+2025-10-28 11:59:41,369 - base_test.py:[68] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog ---
+2025-10-28 11:59:44,204 - conftest.py:[54] - [INFO] - --- Test run finished. ---

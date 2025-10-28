@@ -1,0 +1,9 @@
+2025-10-28 17:27:40,285 - [INFO] - Running test on browser: EDGE
+2025-10-28 17:27:40,285 - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 17:27:42,046 - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 17:27:42,121 - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 17:27:44,388 - [INFO] - opening cart
+2025-10-28 17:27:46,738 - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:27:46,738 - [INFO] - getting items in cart
+2025-10-28 17:27:56,765 - [DEBUG] - Items before removal: []
+2025-10-28 17:27:56,766 - [WARNING] - Cart already empty; skipping removal check.

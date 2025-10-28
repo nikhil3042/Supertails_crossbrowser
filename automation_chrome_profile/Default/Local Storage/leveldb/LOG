@@ -1,3 +1,6 @@
-2025/06/20-10:40:16.085 74e4 Reusing MANIFEST F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/06/20-10:40:16.106 74e4 Recovering log #3
-2025/06/20-10:40:16.116 74e4 Reusing old log F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile\Default\Local Storage\leveldb/000003.log 
+2025/10/29-02:00:48.749 27c4 Reusing MANIFEST D:\supertails_automation\automation_chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/29-02:00:48.755 27c4 Recovering log #33
+2025/10/29-02:00:48.757 27c4 Reusing old log D:\supertails_automation\automation_chrome_profile\Default\Local Storage\leveldb/000033.log 
+2025/10/29-02:01:28.608 2dc4 Level-0 table #37: started
+2025/10/29-02:01:28.613 2dc4 Level-0 table #37: 16118 bytes OK
+2025/10/29-02:01:28.615 2dc4 Delete type=0 #33

@@ -2,9 +2,31 @@
 
 browser:
   default: "chrome"
+  secondary: "edge"
   headless: false
   implicit_wait: 10
   page_load_timeout: 30
+
+# browser-specific option lists (optional)
+  options:
+    chrome:
+      args:
+        - "--no-sandbox"
+        - "--disable-dev-shm-usage"
+        - "--disable-gpu"
+        - "--window-size=1920,1080"
+        - "--disable-extensions"
+        - "--disable-web-security"
+        - "--allow-running-insecure-content"
+    edge:
+      args:
+        - "--no-sandbox"
+        - "--disable-dev-shm-usage"
+        - "--disable-gpu"
+        - "--window-size=1920,1080"
+        - "--disable-extensions"
+        - "--disable-web-security"
+        - "--allow-running-insecure-content"
 
 logging:
   level: "INFO"
@@ -13,6 +35,10 @@ logging:
 
 # Environment-specific settings for your application
 environments:
+  practice:
+    base_url: "https://testautomationpractice.blogspot.com/"
+    username: "N/A" # Not needed for this site
+    password: "N/A"
   # The sample automation practice site
   demo:
     base_url: "https://www.saucedemo.com/"
@@ -36,3 +62,8 @@ environments:
     base_url: "https://example.com"
     username: "prod_user"
     password: "prod_pass"
+
+  supertails:
+    base_url: "https://supertails.com/"
+    username: "N/A"        # or test account if you have one
+    password: "N/A"

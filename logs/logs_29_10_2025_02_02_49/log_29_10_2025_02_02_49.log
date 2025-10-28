@@ -1,0 +1,21 @@
+2025-10-29 02:02:49,154 - conftest.py:[73] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_29_10_2025_02_02_49\log_29_10_2025_02_02_49.log ---
+2025-10-29 02:02:49,155 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog[edge] on EDGE ---
+2025-10-29 02:02:49,158 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-29 02:02:49,159 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-29 02:02:51,902 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-29 02:02:51,978 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-29 02:02:55,621 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-29 02:02:56,144 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-29 02:02:57,258 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-29 02:02:58,489 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-29 02:03:01,387 - product_catalog.py:[33] - [INFO] - clicking the product
+2025-10-29 02:03:02,787 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-29 02:03:02,788 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page
+2025-10-29 02:03:04,180 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-29 02:03:04,181 - product_catalog.py:[45] - [INFO] - Add to Cart button clicked successfully
+2025-10-29 02:03:04,181 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.
+2025-10-29 02:03:09,182 - cart.py:[15] - [INFO] - opening cart
+2025-10-29 02:03:10,626 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-29 02:03:13,626 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-29 02:03:13,685 - base_test.py:[73] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog[edge] on EDGE ---
+2025-10-29 02:03:16,595 - conftest.py:[75] - [INFO] - --- Test run finished. ---

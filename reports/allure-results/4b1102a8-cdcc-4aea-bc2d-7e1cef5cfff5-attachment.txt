@@ -1,0 +1,22 @@
+INFO     MyFrameworkLogger:conftest.py:73 --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_17_27_27\log_28_10_2025_17_27_27.log ---
+INFO     MyFrameworkLogger:base_test.py:35 --- Starting test: test_remove_item_from_cart[chrome] on CHROME ---
+INFO     MyFrameworkLogger:base_test.py:47 Running test on browser: CHROME
+INFO     MyFrameworkLogger:base_test.py:82 Setting up 'chrome' browser (Headless: False)
+INFO     MyFrameworkLogger:base_test.py:100 Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+INFO     MyFrameworkLogger:base_test.py:128 Chrome WebDriver initialized with dedicated profile and popup suppression.
+INFO     MyFrameworkLogger:test_cart.py:54 Navigating to: https://supertails.com/
+INFO     MyFrameworkLogger:cart.py:15 opening cart
+INFO     MyFrameworkLogger:base_page.py:36 Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+INFO     MyFrameworkLogger:cart.py:19 getting items in cart
+DEBUG    MyFrameworkLogger:test_cart.py:61 Items before removal: ['Quantity\n−\n+\nRoyal Canin Maxi Puppy Dog Dry Food\nSize - 20kg (2x10kg)\n₹13,958\n₹13,958\n₹15,880\n₹15,880\n₹1,922\n₹1,922\nsaved']
+INFO     MyFrameworkLogger:cart.py:25 removing the product to cart
+INFO     MyFrameworkLogger:base_page.py:36 Successfully clicked element: ('xpath', '//span[contains(text(),"Remove")]')
+INFO     MyFrameworkLogger:test_cart.py:65 Removed first item from cart successfully.
+INFO     MyFrameworkLogger:cart.py:35 no result is found
+INFO     MyFrameworkLogger:base_page.py:81 Retrieved text 'Oops, your cart is feeling a bit light. Time to give it some love and add some goodies!
+Continue shopping' from element: ('css selector', 'div[class="rte text-spacing"]')
+INFO     MyFrameworkLogger:test_cart.py:68 Empty cart message: None
+ERROR    MyFrameworkLogger:test_cart.py:73 Error while removing cart item: 'NoneType' object has no attribute 'lower'
+ERROR    MyFrameworkLogger:base_test.py:151 Test 'test_remove_item_from_cart[chrome]' failed. Capturing Allure screenshot.
+INFO     MyFrameworkLogger:base_test.py:164 Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_remove_item_from_cart[chrome]_20251028_172736.png
+INFO     MyFrameworkLogger:base_test.py:73 --- Finished test: test_remove_item_from_cart[chrome] on CHROME ---

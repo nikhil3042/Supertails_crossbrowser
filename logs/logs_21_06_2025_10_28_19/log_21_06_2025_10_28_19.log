@@ -1,0 +1,13 @@
+2025-06-21 10:28:19,187 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_21_06_2025_10_28_19\log_21_06_2025_10_28_19.log ---
+2025-06-21 10:28:19,188 - base_test.py:[33] - [INFO] - --- Starting test: test_select_specific_date ---
+2025-06-21 10:28:19,191 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-21 10:28:19,191 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-21 10:28:20,601 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-21 10:28:23,503 - base_page.py:[125] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-06-21 10:28:23,505 - date_picker_page.py:[33] - [INFO] - Attempting to select date: 15-August-2025
+2025-06-21 10:28:44,602 - base_page.py:[50] - [ERROR] - Timeout: Element was not present within 20s: ('id', 'frame-one796456169')
+2025-06-21 10:28:44,610 - date_picker_page.py:[68] - [INFO] - Switched back to default content.
+2025-06-21 10:28:44,692 - base_test.py:[113] - [ERROR] - Test 'test_select_specific_date' failed. Capturing Allure screenshot.
+2025-06-21 10:28:45,818 - base_test.py:[126] - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_select_specific_date_20250621_102844.png
+2025-06-21 10:28:45,818 - base_test.py:[61] - [INFO] - --- Finished test: test_select_specific_date ---
+2025-06-21 10:28:48,125 - conftest.py:[54] - [INFO] - --- Test run finished. ---

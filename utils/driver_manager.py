@@ -5,10 +5,13 @@ Handles WebDriver initialization and configuration.
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.webdriver.edge.options import Options as EdgeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from utils.logger import setup_logger
 from config.environment import Environment
@@ -41,6 +44,8 @@ class DriverManager:
             return self._setup_chrome_driver(headless)
         elif browser == 'firefox':
             return self._setup_firefox_driver(headless)
+        elif browser == 'edge':
+            return self._setup_edge_driver(headless)
         else:
             raise ValueError(f"Unsupported browser: {browser}")
     
@@ -108,6 +113,43 @@ class DriverManager:
         except Exception as e:
             self.logger.error(f"Error initializing Firefox WebDriver: {str(e)}")
             raise
+
+    def _setup_edge_driver(self, headless=False):  # CHANGED
+        """
+        Setup Edge WebDriver with options.
+
+        Args:
+            headless: Whether to run in headless mode
+
+        Returns:
+            WebDriver: Edge WebDriver instance
+        """
+        try:
+            options = EdgeOptions()  # CHANGED
+
+            # Edge supports many same flags as Chrome
+            if headless:
+                # use the new headless flag, or '--headless' depending on version
+                options.add_argument('--headless')  # CHANGED
+
+            options.add_argument('--no-sandbox')  # CHANGED
+            options.add_argument('--disable-dev-shm-usage')  # CHANGED
+            options.add_argument('--disable-gpu')  # CHANGED
+            options.add_argument('--window-size=1920,1080')  # CHANGED
+            options.add_argument('--disable-extensions')  # CHANGED
+            options.add_argument('--disable-web-security')  # CHANGED
+            options.add_argument('--allow-running-insecure-content')  # CHANGED
+
+            service = EdgeService(EdgeChromiumDriverManager().install())  # CHANGED
+            driver = webdriver.Edge(service=service, options=options)  # CHANGED
+
+            self._configure_driver(driver)
+            self.logger.info("Edge WebDriver initialized successfully")  # CHANGED
+            return driver
+
+        except Exception as e:
+            self.logger.error(f"Error initializing Edge WebDriver: {str(e)}")  # CHANGED
+            raise  # CHANGED
     
     def _configure_driver(self, driver):
         """

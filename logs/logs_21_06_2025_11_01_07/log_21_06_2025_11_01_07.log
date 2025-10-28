@@ -1,0 +1,76 @@
+2025-06-21 11:01:07,829 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_21_06_2025_11_01_07\log_21_06_2025_11_01_07.log ---
+2025-06-21 11:01:07,829 - base_test.py:[33] - [INFO] - --- Starting test: test_select_specific_date ---
+2025-06-21 11:01:07,832 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-21 11:01:07,832 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-21 11:01:09,244 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-21 11:01:12,121 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-06-21 11:01:12,123 - date_picker_page.py:[38] - [INFO] - Attempting to select date: 15-August-2026
+2025-06-21 11:01:12,142 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'datepicker')
+2025-06-21 11:01:12,211 - base_page.py:[36] - [INFO] - Successfully clicked element: ('id', 'datepicker')
+2025-06-21 11:01:12,221 - base_page.py:[113] - [INFO] - Element found: ('id', 'ui-datepicker-div')
+2025-06-21 11:01:12,242 - base_page.py:[81] - [INFO] - Retrieved text 'June' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:12,258 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:12,259 - date_picker_page.py:[60] - [INFO] - Currently viewing: June 2025
+2025-06-21 11:01:12,306 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:12,546 - base_page.py:[81] - [INFO] - Retrieved text 'July' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:12,558 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:12,558 - date_picker_page.py:[60] - [INFO] - Currently viewing: July 2025
+2025-06-21 11:01:12,600 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:12,828 - base_page.py:[81] - [INFO] - Retrieved text 'August' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:12,844 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:12,844 - date_picker_page.py:[60] - [INFO] - Currently viewing: August 2025
+2025-06-21 11:01:12,886 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:13,143 - base_page.py:[81] - [INFO] - Retrieved text 'September' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:13,157 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:13,158 - date_picker_page.py:[60] - [INFO] - Currently viewing: September 2025
+2025-06-21 11:01:13,198 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:13,430 - base_page.py:[81] - [INFO] - Retrieved text 'October' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:13,443 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:13,444 - date_picker_page.py:[60] - [INFO] - Currently viewing: October 2025
+2025-06-21 11:01:13,491 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:13,723 - base_page.py:[81] - [INFO] - Retrieved text 'November' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:13,735 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:13,735 - date_picker_page.py:[60] - [INFO] - Currently viewing: November 2025
+2025-06-21 11:01:13,772 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:13,998 - base_page.py:[81] - [INFO] - Retrieved text 'December' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:14,012 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:14,013 - date_picker_page.py:[60] - [INFO] - Currently viewing: December 2025
+2025-06-21 11:01:14,055 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:14,283 - base_page.py:[81] - [INFO] - Retrieved text 'January' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:14,295 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:14,296 - date_picker_page.py:[60] - [INFO] - Currently viewing: January 2026
+2025-06-21 11:01:14,333 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:14,563 - base_page.py:[81] - [INFO] - Retrieved text 'February' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:14,574 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:14,574 - date_picker_page.py:[60] - [INFO] - Currently viewing: February 2026
+2025-06-21 11:01:14,612 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:14,846 - base_page.py:[81] - [INFO] - Retrieved text 'March' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:14,861 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:14,862 - date_picker_page.py:[60] - [INFO] - Currently viewing: March 2026
+2025-06-21 11:01:14,900 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:15,130 - base_page.py:[81] - [INFO] - Retrieved text 'April' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:15,144 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:15,144 - date_picker_page.py:[60] - [INFO] - Currently viewing: April 2026
+2025-06-21 11:01:15,184 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:15,426 - base_page.py:[81] - [INFO] - Retrieved text 'May' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:15,439 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:15,439 - date_picker_page.py:[60] - [INFO] - Currently viewing: May 2026
+2025-06-21 11:01:15,478 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:15,719 - base_page.py:[81] - [INFO] - Retrieved text 'June' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:15,731 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:15,731 - date_picker_page.py:[60] - [INFO] - Currently viewing: June 2026
+2025-06-21 11:01:15,768 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:16,011 - base_page.py:[81] - [INFO] - Retrieved text 'July' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:16,024 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:16,024 - date_picker_page.py:[60] - [INFO] - Currently viewing: July 2026
+2025-06-21 11:01:16,062 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-06-21 11:01:16,302 - base_page.py:[81] - [INFO] - Retrieved text 'August' from element: ('class name', 'ui-datepicker-month')
+2025-06-21 11:01:16,314 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-06-21 11:01:16,315 - date_picker_page.py:[60] - [INFO] - Currently viewing: August 2026
+2025-06-21 11:01:16,315 - date_picker_page.py:[64] - [INFO] - Correct month and year found.
+2025-06-21 11:01:16,369 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//td[@data-handler='selectDay']/a[text()='15']")
+2025-06-21 11:01:16,370 - date_picker_page.py:[79] - [INFO] - Successfully selected date: 15-August-2026
+2025-06-21 11:01:19,391 - base_page.py:[113] - [INFO] - Element found: ('id', 'datepicker')
+2025-06-21 11:01:19,402 - test_date_picker.py:[45] - [INFO] - Date was selected and verified successfully.
+2025-06-21 11:01:19,406 - base_test.py:[61] - [INFO] - --- Finished test: test_select_specific_date ---
+2025-06-21 11:01:21,742 - conftest.py:[54] - [INFO] - --- Test run finished. ---

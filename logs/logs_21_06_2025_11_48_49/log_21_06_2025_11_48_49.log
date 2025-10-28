@@ -1,0 +1,16 @@
+2025-06-21 11:48:49,720 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_21_06_2025_11_48_49\log_21_06_2025_11_48_49.log ---
+2025-06-21 11:48:49,720 - base_test.py:[33] - [INFO] - --- Starting test: test_select_date_range ---
+2025-06-21 11:48:49,723 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-21 11:48:49,723 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-21 11:48:51,068 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-21 11:48:53,790 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-06-21 11:48:53,792 - date_picker_page.py:[82] - [INFO] - Attempting to select date range: 2025-06-01 to 2025-06-15
+2025-06-21 11:48:53,808 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'start-date')
+2025-06-21 11:48:53,861 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('id', 'start-date')
+2025-06-21 11:48:53,900 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('id', 'end-date')
+2025-06-21 11:48:53,951 - base_page.py:[36] - [INFO] - Successfully clicked element: ('class name', 'submit-btn')
+2025-06-21 11:48:53,973 - base_page.py:[81] - [INFO] - Retrieved text 'You selected a range of 5113 days.' from element: ('id', 'result')
+2025-06-21 11:48:54,045 - base_test.py:[113] - [ERROR] - Test 'test_select_date_range' failed. Capturing Allure screenshot.
+2025-06-21 11:48:55,175 - base_test.py:[126] - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_select_date_range_20250621_114854.png
+2025-06-21 11:48:55,175 - base_test.py:[61] - [INFO] - --- Finished test: test_select_date_range ---
+2025-06-21 11:48:57,492 - conftest.py:[54] - [INFO] - --- Test run finished. ---

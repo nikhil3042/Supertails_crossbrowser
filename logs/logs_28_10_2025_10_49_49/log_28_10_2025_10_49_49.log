@@ -1,0 +1,27 @@
+2025-10-28 10:49:49,910 - conftest.py:[52] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_10_49_49\log_28_10_2025_10_49_49.log ---
+2025-10-28 10:49:49,911 - base_test.py:[35] - [INFO] - --- Starting test: test_open_cart ---
+2025-10-28 10:49:49,915 - base_test.py:[46] - [INFO] - Running test on browser: CHROME
+2025-10-28 10:49:49,915 - base_test.py:[46] - [INFO] - Running test on browser: EDGE
+2025-10-28 10:49:49,915 - base_test.py:[76] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 10:49:51,739 - base_test.py:[132] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 10:49:51,852 - test_cart.py:[23] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 10:50:17,804 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 10:50:42,521 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 10:50:42,522 - test_cart.py:[29] - [DEBUG] - Cart opened successfully.
+2025-10-28 10:50:42,522 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 10:50:52,555 - test_cart.py:[32] - [INFO] - Items found in cart: 0
+2025-10-28 10:50:52,556 - test_cart.py:[33] - [DEBUG] - Cart contents: []
+2025-10-28 10:50:52,563 - base_test.py:[68] - [INFO] - --- Finished test: test_open_cart ---
+2025-10-28 10:50:56,542 - base_test.py:[35] - [INFO] - --- Starting test: test_remove_item_from_cart ---
+2025-10-28 10:50:56,545 - base_test.py:[46] - [INFO] - Running test on browser: CHROME
+2025-10-28 10:50:56,545 - base_test.py:[46] - [INFO] - Running test on browser: EDGE
+2025-10-28 10:50:56,546 - base_test.py:[76] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 10:50:58,030 - base_test.py:[132] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 10:50:58,107 - test_cart.py:[54] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 10:51:25,382 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 10:51:49,203 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 10:51:49,204 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 10:51:59,273 - test_cart.py:[61] - [DEBUG] - Items before removal: []
+2025-10-28 10:51:59,273 - test_cart.py:[71] - [WARNING] - Cart already empty; skipping removal check.
+2025-10-28 10:51:59,276 - base_test.py:[68] - [INFO] - --- Finished test: test_remove_item_from_cart ---
+2025-10-28 10:52:03,538 - conftest.py:[54] - [INFO] - --- Test run finished. ---

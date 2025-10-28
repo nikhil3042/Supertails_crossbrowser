@@ -1,0 +1,14 @@
+INFO     MyFrameworkLogger:base_test.py:35 --- Starting test: test_search_invalid_product[chrome] on CHROME ---
+INFO     MyFrameworkLogger:base_test.py:47 Running test on browser: CHROME
+INFO     MyFrameworkLogger:base_test.py:82 Setting up 'chrome' browser (Headless: False)
+INFO     MyFrameworkLogger:base_test.py:100 Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+INFO     MyFrameworkLogger:base_test.py:128 Chrome WebDriver initialized with dedicated profile and popup suppression.
+INFO     MyFrameworkLogger:test_product_catalog.py:54 Navigating to URL: https://supertails.com/
+INFO     MyFrameworkLogger:product_catalog.py:17 searching for product frandom_invalid_product_xyz
+INFO     MyFrameworkLogger:base_page.py:52 Successfully entered text into element: ('css selector', 'input#mainfrm')
+WARNING  MyFrameworkLogger:product_catalog.py:22 Search button click intercepted, retrying with JS click
+DEBUG    MyFrameworkLogger:test_product_catalog.py:60 Search executed with invalid product.
+INFO     MyFrameworkLogger:product_catalog.py:53 no result is found
+INFO     MyFrameworkLogger:base_page.py:81 Retrieved text 'Your search for "random_invalid_product_xyz" did not return any results.' from element: ('xpath', '//div[@class="search-not-found noResult"]')
+INFO     MyFrameworkLogger:test_product_catalog.py:63 No result message: Your search for "random_invalid_product_xyz" did not return any results.
+INFO     MyFrameworkLogger:base_test.py:73 --- Finished test: test_search_invalid_product[chrome] on CHROME ---

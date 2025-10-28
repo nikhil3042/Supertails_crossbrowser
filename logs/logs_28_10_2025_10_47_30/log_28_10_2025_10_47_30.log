@@ -1,0 +1,15 @@
+2025-10-28 10:47:30,938 - conftest.py:[52] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_10_47_30\log_28_10_2025_10_47_30.log ---
+2025-10-28 10:47:30,939 - base_test.py:[35] - [INFO] - --- Starting test: test_search_valid_product ---
+2025-10-28 10:47:30,942 - base_test.py:[46] - [INFO] - Running test on browser: CHROME
+2025-10-28 10:47:30,942 - base_test.py:[46] - [INFO] - Running test on browser: EDGE
+2025-10-28 10:47:30,943 - base_test.py:[76] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 10:47:32,728 - base_test.py:[132] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 10:47:32,818 - test_product_catalog.py:[23] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 10:48:00,769 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 10:48:00,935 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 10:48:02,041 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 10:48:05,087 - test_product_catalog.py:[29] - [DEBUG] - Search executed successfully.
+2025-10-28 10:48:05,087 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 10:48:06,417 - test_product_catalog.py:[32] - [INFO] - Products returned: 40
+2025-10-28 10:48:06,488 - base_test.py:[68] - [INFO] - --- Finished test: test_search_valid_product ---
+2025-10-28 10:48:10,447 - conftest.py:[54] - [INFO] - --- Test run finished. ---

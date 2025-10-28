@@ -1,0 +1,10 @@
+[32m2025-10-28 17:27:40,281 - base_test.py:[35] - [INFO] - --- Starting test: test_remove_item_from_cart[edge] on EDGE ---[0m
+[32m2025-10-28 17:27:40,285 - base_test.py:[47] - [INFO] - Running test on browser: EDGE[0m
+[32m2025-10-28 17:27:40,285 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)[0m
+[32m2025-10-28 17:27:42,046 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.[0m
+[32m2025-10-28 17:27:42,121 - test_cart.py:[54] - [INFO] - Navigating to: https://supertails.com/[0m
+[32m2025-10-28 17:27:44,388 - cart.py:[15] - [INFO] - opening cart[0m
+[32m2025-10-28 17:27:46,738 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')[0m
+[32m2025-10-28 17:27:46,738 - cart.py:[19] - [INFO] - getting items in cart[0m
+[33m2025-10-28 17:27:56,766 - test_cart.py:[71] - [WARNING] - Cart already empty; skipping removal check.[0m
+[32m2025-10-28 17:27:56,768 - base_test.py:[73] - [INFO] - --- Finished test: test_remove_item_from_cart[edge] on EDGE ---[0m

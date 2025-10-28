@@ -1,0 +1,13 @@
+2025-06-21 10:20:49,897 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_21_06_2025_10_20_49\log_21_06_2025_10_20_49.log ---
+2025-06-21 10:20:49,897 - base_test.py:[33] - [INFO] - --- Starting test: test_select_specific_date ---
+2025-06-21 10:20:49,899 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-21 10:20:49,900 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-21 10:20:53,106 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-21 10:20:57,800 - base_page.py:[125] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-06-21 10:20:57,801 - date_picker_page.py:[31] - [INFO] - Attempting to select date: 15-August-2025
+2025-06-21 10:20:57,954 - base_page.py:[61] - [INFO] - Successfully clicked element: ('id', 'datepicker')
+2025-06-21 10:20:58,976 - base_page.py:[47] - [INFO] - Element found: ('class name', 'ui-datepicker-year')
+2025-06-21 10:20:59,074 - base_test.py:[113] - [ERROR] - Test 'test_select_specific_date' failed. Capturing Allure screenshot.
+2025-06-21 10:21:00,218 - base_test.py:[126] - [INFO] - Screenshot for Allure saved to: F:\TY_New\PythonRMG\HarshaFW_Python\reports\screenshots\failed_test_select_specific_date_20250621_102059.png
+2025-06-21 10:21:00,219 - base_test.py:[61] - [INFO] - --- Finished test: test_select_specific_date ---
+2025-06-21 10:21:02,637 - conftest.py:[54] - [INFO] - --- Test run finished. ---

@@ -1,0 +1,153 @@
+2025-10-28 17:21:38,108 - conftest.py:[73] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_17_21_38\log_28_10_2025_17_21_38.log ---
+2025-10-28 17:21:38,109 - base_test.py:[35] - [INFO] - --- Starting test: test_open_cart[chrome] on CHROME ---
+2025-10-28 17:21:38,121 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 17:21:38,121 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 17:21:38,122 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 17:21:40,576 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 17:21:40,773 - test_cart.py:[23] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 17:21:43,947 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 17:21:48,135 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:21:48,137 - test_cart.py:[29] - [DEBUG] - Cart opened successfully.
+2025-10-28 17:21:48,137 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 17:21:49,356 - test_cart.py:[32] - [INFO] - Items found in cart: 1
+2025-10-28 17:21:49,380 - base_test.py:[73] - [INFO] - --- Finished test: test_open_cart[chrome] on CHROME ---
+2025-10-28 17:21:52,058 - base_test.py:[35] - [INFO] - --- Starting test: test_open_cart[edge] on EDGE ---
+2025-10-28 17:21:52,074 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 17:21:52,075 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 17:21:55,295 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 17:21:55,407 - test_cart.py:[23] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 17:21:59,936 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 17:22:01,875 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:22:01,875 - test_cart.py:[29] - [DEBUG] - Cart opened successfully.
+2025-10-28 17:22:01,876 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 17:22:11,968 - test_cart.py:[32] - [INFO] - Items found in cart: 0
+2025-10-28 17:22:11,969 - test_cart.py:[33] - [DEBUG] - Cart contents: []
+2025-10-28 17:22:11,979 - base_test.py:[73] - [INFO] - --- Finished test: test_open_cart[edge] on EDGE ---
+2025-10-28 17:22:15,996 - base_test.py:[35] - [INFO] - --- Starting test: test_remove_item_from_cart[chrome] on CHROME ---
+2025-10-28 17:22:16,008 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 17:22:16,009 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 17:22:16,009 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 17:22:17,873 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 17:22:18,050 - test_cart.py:[54] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 17:22:20,385 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 17:22:24,745 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:22:24,746 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 17:22:25,764 - cart.py:[25] - [INFO] - removing the product to cart
+2025-10-28 17:22:28,037 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Remove")]')
+2025-10-28 17:22:28,038 - test_cart.py:[65] - [INFO] - Removed first item from cart successfully.
+2025-10-28 17:22:28,038 - cart.py:[35] - [INFO] - no result is found
+2025-10-28 17:22:31,020 - base_page.py:[81] - [INFO] - Retrieved text 'Oops, your cart is feeling a bit light. Time to give it some love and add some goodies!
+Continue shopping' from element: ('css selector', 'div[class="rte text-spacing"]')
+2025-10-28 17:22:31,021 - test_cart.py:[68] - [INFO] - Empty cart message: None
+2025-10-28 17:22:31,022 - test_cart.py:[73] - [ERROR] - Error while removing cart item: 'NoneType' object has no attribute 'lower'
+2025-10-28 17:22:31,727 - base_test.py:[151] - [ERROR] - Test 'test_remove_item_from_cart[chrome]' failed. Capturing Allure screenshot.
+2025-10-28 17:22:33,063 - base_test.py:[164] - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_remove_item_from_cart[chrome]_20251028_172231.png
+2025-10-28 17:22:33,065 - base_test.py:[73] - [INFO] - --- Finished test: test_remove_item_from_cart[chrome] on CHROME ---
+2025-10-28 17:22:35,618 - base_test.py:[35] - [INFO] - --- Starting test: test_remove_item_from_cart[edge] on EDGE ---
+2025-10-28 17:22:35,626 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 17:22:35,626 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 17:22:37,881 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 17:22:38,004 - test_cart.py:[54] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 17:22:40,937 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 17:22:45,557 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:22:45,557 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 17:22:55,635 - test_cart.py:[61] - [DEBUG] - Items before removal: []
+2025-10-28 17:22:55,636 - test_cart.py:[71] - [WARNING] - Cart already empty; skipping removal check.
+2025-10-28 17:22:55,641 - base_test.py:[73] - [INFO] - --- Finished test: test_remove_item_from_cart[edge] on EDGE ---
+2025-10-28 17:22:58,705 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog[chrome] on CHROME ---
+2025-10-28 17:22:58,714 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 17:22:58,715 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 17:22:58,715 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 17:23:00,361 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 17:23:00,552 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:23:04,626 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 17:23:05,288 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:23:06,588 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:23:08,434 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 17:23:12,258 - product_catalog.py:[33] - [INFO] - clicking the product
+2025-10-28 17:23:15,252 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-28 17:23:15,253 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page
+2025-10-28 17:23:17,524 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-28 17:23:17,525 - product_catalog.py:[45] - [INFO] - Add to Cart button clicked successfully
+2025-10-28 17:23:17,525 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.
+2025-10-28 17:23:22,526 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 17:23:25,080 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:23:28,082 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 17:23:28,316 - base_test.py:[73] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog[chrome] on CHROME ---
+2025-10-28 17:23:30,809 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog[edge] on EDGE ---
+2025-10-28 17:23:30,817 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 17:23:30,818 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 17:23:33,183 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 17:23:33,301 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:23:38,220 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 17:23:38,460 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:23:39,774 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:23:41,425 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 17:23:45,356 - product_catalog.py:[33] - [INFO] - clicking the product
+2025-10-28 17:23:47,513 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-28 17:23:47,515 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page
+2025-10-28 17:23:49,828 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-28 17:23:49,829 - product_catalog.py:[45] - [INFO] - Add to Cart button clicked successfully
+2025-10-28 17:23:49,829 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.
+2025-10-28 17:23:54,831 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 17:23:56,980 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:23:59,981 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 17:24:00,087 - base_test.py:[73] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog[edge] on EDGE ---
+2025-10-28 17:24:03,079 - test_logging_only.py:[17] - [INFO] - This is an informational message.
+2025-10-28 17:24:03,080 - test_logging_only.py:[18] - [DEBUG] - This is a detailed debug message for tracing.
+2025-10-28 17:24:03,080 - test_logging_only.py:[19] - [WARNING] - This is a warning message about a potential issue.
+2025-10-28 17:24:03,080 - test_logging_only.py:[20] - [ERROR] - This is an error message indicating something failed.
+2025-10-28 17:24:03,081 - test_logging_only.py:[21] - [CRITICAL] - This is a critical message for a major failure.
+2025-10-28 17:24:03,095 - base_test.py:[35] - [INFO] - --- Starting test: test_search_valid_product[chrome] on CHROME ---
+2025-10-28 17:24:03,107 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 17:24:03,108 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 17:24:03,109 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 17:24:04,678 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 17:24:04,861 - test_product_catalog.py:[23] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:24:05,653 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 17:24:09,523 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:24:10,666 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:24:12,297 - test_product_catalog.py:[29] - [DEBUG] - Search executed successfully.
+2025-10-28 17:24:12,298 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 17:24:15,909 - test_product_catalog.py:[32] - [INFO] - Products returned: 40
+2025-10-28 17:24:15,919 - base_test.py:[73] - [INFO] - --- Finished test: test_search_valid_product[chrome] on CHROME ---
+2025-10-28 17:24:18,299 - base_test.py:[35] - [INFO] - --- Starting test: test_search_valid_product[edge] on EDGE ---
+2025-10-28 17:24:18,310 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 17:24:18,311 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 17:24:20,502 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 17:24:20,708 - test_product_catalog.py:[23] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:24:23,494 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 17:24:25,320 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:24:26,475 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:24:28,081 - test_product_catalog.py:[29] - [DEBUG] - Search executed successfully.
+2025-10-28 17:24:28,081 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 17:24:31,702 - test_product_catalog.py:[32] - [INFO] - Products returned: 40
+2025-10-28 17:24:31,712 - base_test.py:[73] - [INFO] - --- Finished test: test_search_valid_product[edge] on EDGE ---
+2025-10-28 17:24:34,755 - base_test.py:[35] - [INFO] - --- Starting test: test_search_invalid_product[chrome] on CHROME ---
+2025-10-28 17:24:34,766 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 17:24:34,767 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 17:24:34,767 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 17:24:36,294 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 17:24:36,562 - test_product_catalog.py:[54] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:24:39,465 - product_catalog.py:[17] - [INFO] - searching for product frandom_invalid_product_xyz
+2025-10-28 17:24:41,520 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:24:42,747 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:24:44,356 - test_product_catalog.py:[60] - [DEBUG] - Search executed with invalid product.
+2025-10-28 17:24:44,357 - product_catalog.py:[53] - [INFO] - no result is found
+2025-10-28 17:24:45,318 - base_page.py:[81] - [INFO] - Retrieved text 'Your search for "random_invalid_product_xyz" did not return any results.' from element: ('xpath', '//div[@class="search-not-found noResult"]')
+2025-10-28 17:24:45,319 - test_product_catalog.py:[63] - [INFO] - No result message: Your search for "random_invalid_product_xyz" did not return any results.
+2025-10-28 17:24:45,323 - base_test.py:[73] - [INFO] - --- Finished test: test_search_invalid_product[chrome] on CHROME ---
+2025-10-28 17:24:47,920 - base_test.py:[35] - [INFO] - --- Starting test: test_search_invalid_product[edge] on EDGE ---
+2025-10-28 17:24:47,936 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 17:24:47,937 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 17:24:50,545 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 17:24:50,867 - test_product_catalog.py:[54] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:24:53,694 - product_catalog.py:[17] - [INFO] - searching for product frandom_invalid_product_xyz
+2025-10-28 17:24:55,993 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:24:57,155 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:24:58,756 - test_product_catalog.py:[60] - [DEBUG] - Search executed with invalid product.
+2025-10-28 17:24:58,757 - product_catalog.py:[53] - [INFO] - no result is found
+2025-10-28 17:25:00,151 - base_page.py:[81] - [INFO] - Retrieved text 'Your search for "random_invalid_product_xyz" did not return any results.' from element: ('xpath', '//div[@class="search-not-found noResult"]')
+2025-10-28 17:25:00,151 - test_product_catalog.py:[63] - [INFO] - No result message: Your search for "random_invalid_product_xyz" did not return any results.
+2025-10-28 17:25:00,155 - base_test.py:[73] - [INFO] - --- Finished test: test_search_invalid_product[edge] on EDGE ---
+2025-10-28 17:25:03,105 - conftest.py:[75] - [INFO] - --- Test run finished. ---

@@ -1,0 +1,93 @@
+[32m2025-10-28 17:27:27,107 - conftest.py:[73] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_17_27_27\log_28_10_2025_17_27_27.log ---[0m
+[32m2025-10-28 17:27:27,108 - base_test.py:[35] - [INFO] - --- Starting test: test_remove_item_from_cart[chrome] on CHROME ---[0m
+[32m2025-10-28 17:27:27,112 - base_test.py:[47] - [INFO] - Running test on browser: CHROME[0m
+[32m2025-10-28 17:27:27,112 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)[0m
+[32m2025-10-28 17:27:27,112 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile[0m
+[32m2025-10-28 17:27:28,276 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.[0m
+[32m2025-10-28 17:27:28,316 - test_cart.py:[54] - [INFO] - Navigating to: https://supertails.com/[0m
+[32m2025-10-28 17:27:30,012 - cart.py:[15] - [INFO] - opening cart[0m
+[32m2025-10-28 17:27:33,214 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')[0m
+[32m2025-10-28 17:27:33,215 - cart.py:[19] - [INFO] - getting items in cart[0m
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\nikhi\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikhi\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 90: character maps to <undefined>
+Call stack:
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.5\plugins\python-ce\helpers\pycharm\_jb_pytest_runner.py", line 75, in <module>
+    sys.exit(pytest.main(args, plugins_to_load + [Plugin]))
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\config\__init__.py", line 175, in main
+    ret: ExitCode | int = config.hook.pytest_cmdline_main(config=config)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 336, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 289, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 343, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\main.py", line 367, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 117, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 136, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 245, in call_and_report
+    call = CallInfo.from_call(
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 344, in from_call
+    result: TResult | None = func()
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 246, in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\runner.py", line 178, in pytest_runtest_call
+    item.runtest()
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\python.py", line 1671, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "D:\Supertails_Api\petenv\Lib\site-packages\_pytest\python.py", line 157, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "D:\supertails_automation\tests\test_cart.py", line 61, in test_remove_item_from_cart
+    self.logger.debug(f"Items before removal: {items_before}")
+Message: "Items before removal: ['Quantity\\n−\\n+\\nRoyal Canin Maxi Puppy Dog Dry Food\\nSize - 20kg (2x10kg)\\n₹13,958\\n₹13,958\\n₹15,880\\n₹15,880\\n₹1,922\\n₹1,922\\nsaved']"
+Arguments: ()
+[32m2025-10-28 17:27:33,900 - cart.py:[25] - [INFO] - removing the product to cart[0m
+[32m2025-10-28 17:27:34,400 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Remove")]')[0m
+[32m2025-10-28 17:27:34,400 - test_cart.py:[65] - [INFO] - Removed first item from cart successfully.[0m
+[32m2025-10-28 17:27:34,401 - cart.py:[35] - [INFO] - no result is found[0m
+[32m2025-10-28 17:27:36,613 - base_page.py:[81] - [INFO] - Retrieved text 'Oops, your cart is feeling a bit light. Time to give it some love and add some goodies!
+Continue shopping' from element: ('css selector', 'div[class="rte text-spacing"]')[0m
+[32m2025-10-28 17:27:36,613 - test_cart.py:[68] - [INFO] - Empty cart message: None[0m
+[31m2025-10-28 17:27:36,613 - test_cart.py:[73] - [ERROR] - Error while removing cart item: 'NoneType' object has no attribute 'lower'[0m
+[31m2025-10-28 17:27:36,825 - base_test.py:[151] - [ERROR] - Test 'test_remove_item_from_cart[chrome]' failed. Capturing Allure screenshot.[0m
+[32m2025-10-28 17:27:37,943 - base_test.py:[164] - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_remove_item_from_cart[chrome]_20251028_172736.png[0m
+[32m2025-10-28 17:27:37,944 - base_test.py:[73] - [INFO] - --- Finished test: test_remove_item_from_cart[chrome] on CHROME ---[0m

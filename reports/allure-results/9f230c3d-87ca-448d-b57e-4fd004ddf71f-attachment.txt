@@ -1,0 +1,11 @@
+INFO     MyFrameworkLogger:base_test.py:35 --- Starting test: test_remove_item_from_cart[edge] on EDGE ---
+INFO     MyFrameworkLogger:base_test.py:47 Running test on browser: EDGE
+INFO     MyFrameworkLogger:base_test.py:82 Setting up 'edge' browser (Headless: False)
+INFO     MyFrameworkLogger:base_test.py:145 Edge WebDriver initialized successfully.
+INFO     MyFrameworkLogger:test_cart.py:54 Navigating to: https://supertails.com/
+INFO     MyFrameworkLogger:cart.py:15 opening cart
+INFO     MyFrameworkLogger:base_page.py:36 Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+INFO     MyFrameworkLogger:cart.py:19 getting items in cart
+DEBUG    MyFrameworkLogger:test_cart.py:61 Items before removal: []
+WARNING  MyFrameworkLogger:test_cart.py:71 Cart already empty; skipping removal check.
+INFO     MyFrameworkLogger:base_test.py:73 --- Finished test: test_remove_item_from_cart[edge] on EDGE ---

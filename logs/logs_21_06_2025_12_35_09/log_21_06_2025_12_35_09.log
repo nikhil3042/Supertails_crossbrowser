@@ -1,0 +1,17 @@
+2025-06-21 12:35:09,127 - conftest.py:[52] - [INFO] - --- Test run started. Logging to F:\TY_New\PythonRMG\HarshaFW_Python\logs\logs_21_06_2025_12_35_09\log_21_06_2025_12_35_09.log ---
+2025-06-21 12:35:09,127 - base_test.py:[33] - [INFO] - --- Starting test: test_select_date_range ---
+2025-06-21 12:35:09,130 - base_test.py:[69] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-06-21 12:35:09,130 - base_test.py:[85] - [INFO] - Using dedicated Chrome profile: F:\TY_New\PythonRMG\HarshaFW_Python\automation_chrome_profile
+2025-06-21 12:35:10,684 - base_test.py:[107] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-06-21 12:35:13,632 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-06-21 12:35:13,632 - date_picker_page.py:[93] - [INFO] - Attempting to select date range: 2027-06-01 to 2027-06-15
+2025-06-21 12:35:13,654 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'start-date')
+2025-06-21 12:35:13,659 - base_page.py:[113] - [INFO] - Element found: ('id', 'start-date')
+2025-06-21 12:35:13,664 - date_picker_page.py:[99] - [INFO] - Set start date to 2027-06-01 using JavaScript.
+2025-06-21 12:35:15,679 - base_page.py:[113] - [INFO] - Element found: ('id', 'end-date')
+2025-06-21 12:35:15,686 - date_picker_page.py:[104] - [INFO] - Set end date to 2027-06-15 using JavaScript.
+2025-06-21 12:35:17,757 - base_page.py:[36] - [INFO] - Successfully clicked element: ('class name', 'submit-btn')
+2025-06-21 12:35:17,757 - date_picker_page.py:[109] - [INFO] - Date range submitted successfully.
+2025-06-21 12:35:17,783 - base_page.py:[81] - [INFO] - Retrieved text 'You selected a range of 14 days.' from element: ('id', 'result')
+2025-06-21 12:35:17,786 - base_test.py:[61] - [INFO] - --- Finished test: test_select_date_range ---
+2025-06-21 12:35:20,202 - conftest.py:[54] - [INFO] - --- Test run finished. ---

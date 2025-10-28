@@ -1,0 +1,286 @@
+2025-10-28 12:39:45,998 - conftest.py:[73] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_12_39_45\log_28_10_2025_12_39_45.log ---
+2025-10-28 12:39:45,999 - base_test.py:[35] - [INFO] - --- Starting test: test_open_cart[chrome] on CHROME ---
+2025-10-28 12:39:46,003 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 12:39:46,004 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 12:39:46,004 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 12:39:47,452 - base_test.py:[122] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 12:39:47,849 - test_cart.py:[23] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 12:40:15,989 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 12:40:39,019 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 12:40:39,019 - test_cart.py:[29] - [DEBUG] - Cart opened successfully.
+2025-10-28 12:40:39,019 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 12:40:49,063 - test_cart.py:[32] - [INFO] - Items found in cart: 0
+2025-10-28 12:40:49,063 - test_cart.py:[33] - [DEBUG] - Cart contents: []
+2025-10-28 12:40:49,066 - base_test.py:[73] - [INFO] - --- Finished test: test_open_cart[chrome] on CHROME ---
+2025-10-28 12:40:51,384 - base_test.py:[35] - [INFO] - --- Starting test: test_open_cart[edge] on EDGE ---
+2025-10-28 12:40:51,387 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 12:40:51,387 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 12:40:53,419 - base_test.py:[138] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 12:40:53,626 - test_cart.py:[23] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 12:41:19,819 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 12:41:44,511 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 12:41:44,512 - test_cart.py:[29] - [DEBUG] - Cart opened successfully.
+2025-10-28 12:41:44,512 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 12:41:54,565 - test_cart.py:[32] - [INFO] - Items found in cart: 0
+2025-10-28 12:41:54,565 - test_cart.py:[33] - [DEBUG] - Cart contents: []
+2025-10-28 12:41:54,568 - base_test.py:[73] - [INFO] - --- Finished test: test_open_cart[edge] on EDGE ---
+2025-10-28 12:41:57,437 - base_test.py:[35] - [INFO] - --- Starting test: test_remove_item_from_cart[chrome] on CHROME ---
+2025-10-28 12:41:57,440 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 12:41:57,441 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 12:41:57,441 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 12:41:59,056 - base_test.py:[122] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 12:41:59,287 - test_cart.py:[54] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 12:42:28,562 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 12:42:53,671 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 12:42:53,671 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 12:43:03,744 - test_cart.py:[61] - [DEBUG] - Items before removal: []
+2025-10-28 12:43:03,744 - test_cart.py:[71] - [WARNING] - Cart already empty; skipping removal check.
+2025-10-28 12:43:03,746 - base_test.py:[73] - [INFO] - --- Finished test: test_remove_item_from_cart[chrome] on CHROME ---
+2025-10-28 12:43:06,042 - base_test.py:[35] - [INFO] - --- Starting test: test_remove_item_from_cart[edge] on EDGE ---
+2025-10-28 12:43:06,045 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 12:43:06,045 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 12:43:07,980 - base_test.py:[138] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 12:43:08,061 - test_cart.py:[54] - [INFO] - Navigating to: https://supertails.com/
+2025-10-28 12:43:33,714 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 12:43:57,438 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 12:43:57,438 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 12:44:07,544 - test_cart.py:[61] - [DEBUG] - Items before removal: []
+2025-10-28 12:44:07,544 - test_cart.py:[71] - [WARNING] - Cart already empty; skipping removal check.
+2025-10-28 12:44:07,546 - base_test.py:[73] - [INFO] - --- Finished test: test_remove_item_from_cart[edge] on EDGE ---
+2025-10-28 12:44:11,508 - base_test.py:[35] - [INFO] - --- Starting test: test_select_date_with_arrows[chrome] on CHROME ---
+2025-10-28 12:44:11,511 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 12:44:11,511 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 12:44:11,511 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 12:44:12,707 - base_test.py:[122] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 12:44:15,429 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-10-28 12:44:15,429 - date_picker_page.py:[42] - [INFO] - Attempting to select date using arrows: 15-August-2026
+2025-10-28 12:44:15,451 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'datepicker')
+2025-10-28 12:44:15,542 - base_page.py:[36] - [INFO] - Successfully clicked element: ('id', 'datepicker')
+2025-10-28 12:44:15,553 - base_page.py:[113] - [INFO] - Element found: ('id', 'ui-datepicker-div')
+2025-10-28 12:44:15,576 - base_page.py:[81] - [INFO] - Retrieved text 'October' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:15,594 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:15,662 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:15,884 - base_page.py:[81] - [INFO] - Retrieved text 'November' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:15,898 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:15,949 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:16,196 - base_page.py:[81] - [INFO] - Retrieved text 'December' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:16,212 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:16,260 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:16,499 - base_page.py:[81] - [INFO] - Retrieved text 'January' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:16,515 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:16,568 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:16,803 - base_page.py:[81] - [INFO] - Retrieved text 'February' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:16,820 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:16,868 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:17,109 - base_page.py:[81] - [INFO] - Retrieved text 'March' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:17,125 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:17,172 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:17,387 - base_page.py:[81] - [INFO] - Retrieved text 'April' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:17,400 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:17,446 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:17,683 - base_page.py:[81] - [INFO] - Retrieved text 'May' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:17,698 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:17,746 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:18,020 - base_page.py:[81] - [INFO] - Retrieved text 'June' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:18,064 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:18,130 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:18,352 - base_page.py:[81] - [INFO] - Retrieved text 'July' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:18,366 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:18,414 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:18,636 - base_page.py:[81] - [INFO] - Retrieved text 'August' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:18,650 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:18,740 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//td[@data-handler='selectDay']/a[text()='15']")
+2025-10-28 12:44:18,750 - base_page.py:[113] - [INFO] - Element found: ('id', 'datepicker')
+2025-10-28 12:44:21,764 - base_test.py:[73] - [INFO] - --- Finished test: test_select_date_with_arrows[chrome] on CHROME ---
+2025-10-28 12:44:23,944 - base_test.py:[35] - [INFO] - --- Starting test: test_select_date_with_arrows[edge] on EDGE ---
+2025-10-28 12:44:23,946 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 12:44:23,947 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 12:44:25,679 - base_test.py:[138] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 12:44:28,684 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-10-28 12:44:28,684 - date_picker_page.py:[42] - [INFO] - Attempting to select date using arrows: 15-August-2026
+2025-10-28 12:44:28,701 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'datepicker')
+2025-10-28 12:44:28,814 - base_page.py:[36] - [INFO] - Successfully clicked element: ('id', 'datepicker')
+2025-10-28 12:44:28,827 - base_page.py:[113] - [INFO] - Element found: ('id', 'ui-datepicker-div')
+2025-10-28 12:44:28,853 - base_page.py:[81] - [INFO] - Retrieved text 'October' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:28,878 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:28,950 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:29,171 - base_page.py:[81] - [INFO] - Retrieved text 'November' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:29,186 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:29,247 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:29,486 - base_page.py:[81] - [INFO] - Retrieved text 'December' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:29,500 - base_page.py:[81] - [INFO] - Retrieved text '2025' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:29,551 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:29,787 - base_page.py:[81] - [INFO] - Retrieved text 'January' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:29,804 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:29,862 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:30,078 - base_page.py:[81] - [INFO] - Retrieved text 'February' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:30,091 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:30,141 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:30,385 - base_page.py:[81] - [INFO] - Retrieved text 'March' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:30,403 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:30,452 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:30,694 - base_page.py:[81] - [INFO] - Retrieved text 'April' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:30,711 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:30,821 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:31,038 - base_page.py:[81] - [INFO] - Retrieved text 'May' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:31,053 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:31,135 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:31,357 - base_page.py:[81] - [INFO] - Retrieved text 'June' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:31,376 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:31,436 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:31,656 - base_page.py:[81] - [INFO] - Retrieved text 'July' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:31,671 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:31,723 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//a[@data-handler='next']")
+2025-10-28 12:44:31,943 - base_page.py:[81] - [INFO] - Retrieved text 'August' from element: ('class name', 'ui-datepicker-month')
+2025-10-28 12:44:32,031 - base_page.py:[81] - [INFO] - Retrieved text '2026' from element: ('class name', 'ui-datepicker-year')
+2025-10-28 12:44:32,098 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//td[@data-handler='selectDay']/a[text()='15']")
+2025-10-28 12:44:32,114 - base_page.py:[113] - [INFO] - Element found: ('id', 'datepicker')
+2025-10-28 12:44:35,124 - base_test.py:[73] - [INFO] - --- Finished test: test_select_date_with_arrows[edge] on EDGE ---
+2025-10-28 12:44:37,968 - base_test.py:[35] - [INFO] - --- Starting test: test_select_date_with_dropdowns[chrome] on CHROME ---
+2025-10-28 12:44:37,971 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 12:44:37,971 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 12:44:37,971 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 12:44:39,157 - base_test.py:[122] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 12:44:42,095 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-10-28 12:44:42,096 - date_picker_page.py:[67] - [INFO] - Attempting to select date using dropdowns: 25-December-2027
+2025-10-28 12:44:42,111 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'txtDate')
+2025-10-28 12:44:44,230 - base_page.py:[36] - [INFO] - Successfully clicked element: ('id', 'txtDate')
+2025-10-28 12:44:46,267 - base_page.py:[113] - [INFO] - Element found: ('id', 'ui-datepicker-div')
+2025-10-28 12:44:48,303 - base_page.py:[113] - [INFO] - Element found: ('css selector', 'select.ui-datepicker-year')
+2025-10-28 12:44:50,403 - base_page.py:[113] - [INFO] - Element found: ('css selector', 'select.ui-datepicker-month')
+2025-10-28 12:44:52,553 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//td[@data-handler='selectDay']/a[text()='25']")
+2025-10-28 12:44:54,586 - base_page.py:[113] - [INFO] - Element found: ('id', 'txtDate')
+2025-10-28 12:44:56,609 - base_test.py:[73] - [INFO] - --- Finished test: test_select_date_with_dropdowns[chrome] on CHROME ---
+2025-10-28 12:44:58,803 - base_test.py:[35] - [INFO] - --- Starting test: test_select_date_with_dropdowns[edge] on EDGE ---
+2025-10-28 12:44:58,806 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 12:44:58,806 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 12:45:00,479 - base_test.py:[138] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 12:45:03,829 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-10-28 12:45:03,830 - date_picker_page.py:[67] - [INFO] - Attempting to select date using dropdowns: 25-December-2027
+2025-10-28 12:45:03,849 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'txtDate')
+2025-10-28 12:45:05,962 - base_page.py:[36] - [INFO] - Successfully clicked element: ('id', 'txtDate')
+2025-10-28 12:45:07,986 - base_page.py:[113] - [INFO] - Element found: ('id', 'ui-datepicker-div')
+2025-10-28 12:45:09,997 - base_page.py:[113] - [INFO] - Element found: ('css selector', 'select.ui-datepicker-year')
+2025-10-28 12:45:12,095 - base_page.py:[113] - [INFO] - Element found: ('css selector', 'select.ui-datepicker-month')
+2025-10-28 12:45:14,232 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', "//td[@data-handler='selectDay']/a[text()='25']")
+2025-10-28 12:45:16,257 - base_page.py:[113] - [INFO] - Element found: ('id', 'txtDate')
+2025-10-28 12:45:18,274 - base_test.py:[73] - [INFO] - --- Finished test: test_select_date_with_dropdowns[edge] on EDGE ---
+2025-10-28 12:45:21,123 - base_test.py:[35] - [INFO] - --- Starting test: test_select_date_range[chrome] on CHROME ---
+2025-10-28 12:45:21,127 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 12:45:21,127 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 12:45:21,127 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 12:45:22,309 - base_test.py:[122] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 12:45:25,270 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-10-28 12:45:25,270 - date_picker_page.py:[93] - [INFO] - Attempting to select date range: 2027-06-01 to 2027-06-15
+2025-10-28 12:45:25,286 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'start-date')
+2025-10-28 12:45:25,293 - base_page.py:[113] - [INFO] - Element found: ('id', 'start-date')
+2025-10-28 12:45:25,297 - date_picker_page.py:[99] - [INFO] - Set start date to 2027-06-01 using JavaScript.
+2025-10-28 12:45:27,317 - base_page.py:[113] - [INFO] - Element found: ('id', 'end-date')
+2025-10-28 12:45:27,324 - date_picker_page.py:[104] - [INFO] - Set end date to 2027-06-15 using JavaScript.
+2025-10-28 12:45:29,423 - base_page.py:[36] - [INFO] - Successfully clicked element: ('class name', 'submit-btn')
+2025-10-28 12:45:29,423 - date_picker_page.py:[109] - [INFO] - Date range submitted successfully.
+2025-10-28 12:45:29,458 - base_page.py:[81] - [INFO] - Retrieved text 'You selected a range of 14 days.' from element: ('id', 'result')
+2025-10-28 12:45:29,460 - base_test.py:[73] - [INFO] - --- Finished test: test_select_date_range[chrome] on CHROME ---
+2025-10-28 12:45:31,641 - base_test.py:[35] - [INFO] - --- Starting test: test_select_date_range[edge] on EDGE ---
+2025-10-28 12:45:31,644 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 12:45:31,644 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 12:45:33,266 - base_test.py:[138] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 12:45:36,481 - base_page.py:[99] - [INFO] - Successfully navigated to: https://testautomationpractice.blogspot.com/
+2025-10-28 12:45:36,481 - date_picker_page.py:[93] - [INFO] - Attempting to select date range: 2027-06-01 to 2027-06-15
+2025-10-28 12:45:36,495 - base_page.py:[127] - [INFO] - Scrolled to element: ('id', 'start-date')
+2025-10-28 12:45:36,503 - base_page.py:[113] - [INFO] - Element found: ('id', 'start-date')
+2025-10-28 12:45:36,509 - date_picker_page.py:[99] - [INFO] - Set start date to 2027-06-01 using JavaScript.
+2025-10-28 12:45:38,519 - base_page.py:[113] - [INFO] - Element found: ('id', 'end-date')
+2025-10-28 12:45:38,528 - date_picker_page.py:[104] - [INFO] - Set end date to 2027-06-15 using JavaScript.
+2025-10-28 12:45:40,618 - base_page.py:[36] - [INFO] - Successfully clicked element: ('class name', 'submit-btn')
+2025-10-28 12:45:40,618 - date_picker_page.py:[109] - [INFO] - Date range submitted successfully.
+2025-10-28 12:45:40,651 - base_page.py:[81] - [INFO] - Retrieved text 'You selected a range of 14 days.' from element: ('id', 'result')
+2025-10-28 12:45:40,653 - base_test.py:[73] - [INFO] - --- Finished test: test_select_date_range[edge] on EDGE ---
+2025-10-28 12:45:43,475 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog[chrome] on CHROME ---
+2025-10-28 12:45:43,478 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 12:45:43,478 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 12:45:43,478 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 12:45:44,654 - base_test.py:[122] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 12:45:44,939 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 12:46:14,780 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 12:46:14,948 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 12:46:16,061 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 12:46:40,143 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 12:46:41,154 - product_catalog.py:[33] - [INFO] - clicking the product
+2025-10-28 12:47:06,015 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-28 12:47:06,016 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page
+2025-10-28 12:47:06,178 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-28 12:47:06,178 - product_catalog.py:[45] - [INFO] - Add to Cart button clicked successfully
+2025-10-28 12:47:06,178 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.
+2025-10-28 12:47:11,179 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 12:47:24,304 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 12:47:27,305 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 12:47:27,352 - base_test.py:[73] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog[chrome] on CHROME ---
+2025-10-28 12:47:29,698 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog[edge] on EDGE ---
+2025-10-28 12:47:29,702 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 12:47:29,702 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 12:47:31,502 - base_test.py:[138] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 12:47:31,549 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 12:47:59,854 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 12:47:59,972 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 12:48:01,090 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 12:48:14,378 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 12:48:15,448 - product_catalog.py:[33] - [INFO] - clicking the product
+2025-10-28 12:48:18,018 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-28 12:48:18,019 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page
+2025-10-28 12:48:18,397 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-28 12:48:18,397 - product_catalog.py:[45] - [INFO] - Add to Cart button clicked successfully
+2025-10-28 12:48:18,397 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.
+2025-10-28 12:48:23,398 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 12:48:26,213 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 12:48:29,214 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 12:48:29,255 - base_test.py:[73] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog[edge] on EDGE ---
+2025-10-28 12:48:33,418 - test_logging_only.py:[17] - [INFO] - This is an informational message.
+2025-10-28 12:48:33,418 - test_logging_only.py:[18] - [DEBUG] - This is a detailed debug message for tracing.
+2025-10-28 12:48:33,418 - test_logging_only.py:[19] - [WARNING] - This is a warning message about a potential issue.
+2025-10-28 12:48:33,418 - test_logging_only.py:[20] - [ERROR] - This is an error message indicating something failed.
+2025-10-28 12:48:33,419 - test_logging_only.py:[21] - [CRITICAL] - This is a critical message for a major failure.
+2025-10-28 12:48:33,422 - base_test.py:[35] - [INFO] - --- Starting test: test_search_valid_product[chrome] on CHROME ---
+2025-10-28 12:48:33,425 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 12:48:33,425 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 12:48:33,425 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 12:48:34,875 - base_test.py:[122] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 12:48:35,061 - test_product_catalog.py:[23] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 12:49:05,270 - base_test.py:[144] - [ERROR] - Test 'test_search_valid_product[chrome]' failed. Capturing Allure screenshot.
+2025-10-28 12:49:06,589 - base_test.py:[157] - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_search_valid_product[chrome]_20251028_124905.png
+2025-10-28 12:49:06,590 - base_test.py:[73] - [INFO] - --- Finished test: test_search_valid_product[chrome] on CHROME ---
+2025-10-28 12:49:13,110 - base_test.py:[35] - [INFO] - --- Starting test: test_search_valid_product[edge] on EDGE ---
+2025-10-28 12:49:13,113 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 12:49:13,113 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 12:49:14,949 - base_test.py:[138] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 12:49:14,995 - test_product_catalog.py:[23] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 12:49:29,492 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 12:49:29,630 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 12:49:30,779 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 12:49:33,979 - test_product_catalog.py:[29] - [DEBUG] - Search executed successfully.
+2025-10-28 12:49:33,980 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 12:49:35,335 - test_product_catalog.py:[32] - [INFO] - Products returned: 40
+2025-10-28 12:49:35,340 - base_test.py:[73] - [INFO] - --- Finished test: test_search_valid_product[edge] on EDGE ---
+2025-10-28 12:49:38,236 - base_test.py:[35] - [INFO] - --- Starting test: test_search_invalid_product[chrome] on CHROME ---
+2025-10-28 12:49:38,239 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 12:49:38,239 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 12:49:38,239 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 12:49:39,441 - base_test.py:[122] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 12:49:39,577 - test_product_catalog.py:[54] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 12:50:09,628 - base_test.py:[144] - [ERROR] - Test 'test_search_invalid_product[chrome]' failed. Capturing Allure screenshot.
+2025-10-28 12:50:10,904 - base_test.py:[157] - [INFO] - Screenshot for Allure saved to: D:\supertails_automation\reports\screenshots\failed_test_search_invalid_product[chrome]_20251028_125009.png
+2025-10-28 12:50:10,905 - base_test.py:[73] - [INFO] - --- Finished test: test_search_invalid_product[chrome] on CHROME ---
+2025-10-28 12:50:16,727 - base_test.py:[35] - [INFO] - --- Starting test: test_search_invalid_product[edge] on EDGE ---
+2025-10-28 12:50:16,730 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 12:50:16,730 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 12:50:18,386 - base_test.py:[138] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 12:50:18,435 - test_product_catalog.py:[54] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 12:50:43,797 - product_catalog.py:[17] - [INFO] - searching for product frandom_invalid_product_xyz
+2025-10-28 12:50:43,935 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 12:50:45,009 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 12:51:09,661 - test_product_catalog.py:[60] - [DEBUG] - Search executed with invalid product.
+2025-10-28 12:51:09,662 - product_catalog.py:[53] - [INFO] - no result is found
+2025-10-28 12:51:09,710 - base_page.py:[81] - [INFO] - Retrieved text 'Your search for "random_invalid_product_xyz" did not return any results.' from element: ('xpath', '//div[@class="search-not-found noResult"]')
+2025-10-28 12:51:09,710 - test_product_catalog.py:[63] - [INFO] - No result message: Your search for "random_invalid_product_xyz" did not return any results.
+2025-10-28 12:51:09,712 - base_test.py:[73] - [INFO] - --- Finished test: test_search_invalid_product[edge] on EDGE ---
+2025-10-28 12:51:12,555 - conftest.py:[75] - [INFO] - --- Test run finished. ---

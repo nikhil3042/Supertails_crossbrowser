@@ -1,0 +1,43 @@
+2025-10-28 17:12:19,310 - conftest.py:[73] - [INFO] - --- Test run started. Logging to D:\supertails_automation\logs\logs_28_10_2025_17_12_19\log_28_10_2025_17_12_19.log ---
+2025-10-28 17:12:19,311 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog[edge] on EDGE ---
+2025-10-28 17:12:19,311 - base_test.py:[35] - [INFO] - --- Starting test: test_add_product_to_cart_from_catalog[chrome] on CHROME ---
+2025-10-28 17:12:19,316 - base_test.py:[47] - [INFO] - Running test on browser: CHROME
+2025-10-28 17:12:19,316 - base_test.py:[47] - [INFO] - Running test on browser: EDGE
+2025-10-28 17:12:19,316 - base_test.py:[82] - [INFO] - Setting up 'chrome' browser (Headless: False)
+2025-10-28 17:12:19,316 - base_test.py:[82] - [INFO] - Setting up 'edge' browser (Headless: False)
+2025-10-28 17:12:19,316 - base_test.py:[100] - [INFO] - Using dedicated Chrome profile: D:\supertails_automation\automation_chrome_profile
+2025-10-28 17:12:21,662 - base_test.py:[128] - [INFO] - Chrome WebDriver initialized with dedicated profile and popup suppression.
+2025-10-28 17:12:21,747 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:12:21,963 - base_test.py:[145] - [INFO] - Edge WebDriver initialized successfully.
+2025-10-28 17:12:22,131 - test_integration_cart_catalog.py:[27] - [INFO] - Navigating to URL: https://supertails.com/
+2025-10-28 17:12:27,309 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 17:12:27,483 - product_catalog.py:[17] - [INFO] - searching for product fdog food
+2025-10-28 17:12:27,990 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:12:27,996 - base_page.py:[52] - [INFO] - Successfully entered text into element: ('css selector', 'input#mainfrm')
+2025-10-28 17:12:29,293 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:12:29,293 - product_catalog.py:[22] - [WARNING] - Search button click intercepted, retrying with JS click
+2025-10-28 17:12:31,096 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 17:12:32,442 - product_catalog.py:[27] - [INFO] - getting for products
+2025-10-28 17:12:34,819 - product_catalog.py:[33] - [INFO] - clicking the product
+2025-10-28 17:12:35,004 - product_catalog.py:[33] - [INFO] - clicking the product
+2025-10-28 17:12:37,364 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-28 17:12:37,365 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page
+2025-10-28 17:12:38,478 - test_integration_cart_catalog.py:[39] - [INFO] - Opened 3rd product from search results successfully.
+2025-10-28 17:12:38,479 - product_catalog.py:[42] - [INFO] - Clicking Add to Cart button on product detail page
+2025-10-28 17:12:41,061 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-28 17:12:41,061 - product_catalog.py:[45] - [INFO] - Add to Cart button clicked successfully
+2025-10-28 17:12:41,062 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.
+2025-10-28 17:12:46,068 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 17:12:48,525 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:12:51,526 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 17:12:51,613 - base_test.py:[73] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog[edge] on EDGE ---
+2025-10-28 17:12:54,528 - conftest.py:[75] - [INFO] - --- Test run finished. ---
+2025-10-28 17:12:58,558 - base_page.py:[38] - [ERROR] - Timeout: Element not clickable: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-28 17:12:58,563 - product_catalog.py:[47] - [WARNING] - Normal click failed, retrying with JS click
+2025-10-28 17:12:58,579 - base_page.py:[113] - [INFO] - Element found: ('xpath', '//span[contains(text(),"Add to Cart")]/..')
+2025-10-28 17:12:58,623 - test_integration_cart_catalog.py:[41] - [INFO] - Product added to cart successfully.
+2025-10-28 17:13:03,624 - cart.py:[15] - [INFO] - opening cart
+2025-10-28 17:13:05,275 - base_page.py:[36] - [INFO] - Successfully clicked element: ('xpath', '(//a[@id="HeaderCartTrigger"])[2]')
+2025-10-28 17:13:08,276 - cart.py:[19] - [INFO] - getting items in cart
+2025-10-28 17:13:08,370 - base_test.py:[73] - [INFO] - --- Finished test: test_add_product_to_cart_from_catalog[chrome] on CHROME ---
+2025-10-28 17:13:10,921 - conftest.py:[75] - [INFO] - --- Test run finished. ---

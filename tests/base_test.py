@@ -6,6 +6,8 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.edge.options import Options as EdgeOptions
 import allure
 import io
 import logging
@@ -26,39 +28,50 @@ class BaseTest:
     logger = get_logger()
 
     @pytest.fixture(scope="function", autouse=True)
-    def setup_and_teardown(self, request):
+    def setup_and_teardown(self, request, browser):
         """
-        Setup/teardown fixture. It no longer needs to calculate or pass paths.
+        Setup/teardown fixture that supports multiple browsers dynamically.
         """
-        self.logger.info(f"--- Starting test: {request.node.name} ---")
+        self.logger.info(f"--- Starting test: {request.node.name} on {browser.upper()} ---")
 
+        # --- Setup logging for this test ---
         log_stream = io.StringIO()
         stream_handler = logging.StreamHandler(log_stream)
         log_format = logging.Formatter('%(asctime)s - [%(levelname)s] - %(message)s')
         stream_handler.setFormatter(log_format)
         self.logger.addHandler(stream_handler)
 
-        self.env = Environment()
+        # --- Setup environment and browser ---
+        self.env = Environment("supertails")
+        self.env.set_browser(browser)
+        self.logger.info(f"Running test on browser: {browser.upper()}")
+
         self.driver = self._setup_driver()
         request.cls.driver = self.driver
 
         with allure.step("Browser Setup"):
             self.driver.maximize_window()
             self.driver.implicitly_wait(self.env.config['browser']['implicit_wait'])
-            self.driver.set_page_load_timeout(self.env.config['browser']['page_load_timeout'])
+            self.driver.set_page_load_timeout(60)
 
+        # --- Yield to test execution ---
         yield
 
+        # --- Teardown section ---
         with allure.step("Test Teardown"):
-            if request.node.rep_call.failed:
+            if hasattr(request.node, "rep_call") and request.node.rep_call.failed:
                 self._capture_allure_screenshot(request)
 
             log_content = log_stream.getvalue()
-            allure.attach(log_content, name=f"Execution Log for {request.node.name}",
-                          attachment_type=allure.attachment_type.TEXT)
-            self.logger.removeHandler(stream_handler)
+            allure.attach(
+                log_content,
+                name=f"Execution Log for {request.node.name} ({browser.upper()})",
+                attachment_type=allure.attachment_type.TEXT
+            )
 
-            self.logger.info(f"--- Finished test: {request.node.name} ---")
+            self.logger.removeHandler(stream_handler)
+            self.logger.info(f"--- Finished test: {request.node.name} on {browser.upper()} ---")
+
             if self.driver:
                 self.driver.quit()
 
@@ -69,6 +82,8 @@ class BaseTest:
         self.logger.info(f"Setting up '{browser}' browser (Headless: {headless})")
         if browser == 'chrome':
             return self._setup_chrome_driver(headless)
+        elif browser == 'edge':
+            return self._setup_edge_driver(headless)
         else:
             self.logger.error(f"Unsupported browser: {browser}")
             raise ValueError(f"Unsupported browser: {browser}")
@@ -101,10 +116,33 @@ class BaseTest:
         options.add_argument('--window-size=1920,1080')
         options.add_argument('--disable-blink-features=AutomationControlled')
         options.add_argument('--disable-extensions')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--disable-software-rasterizer')
+        options.add_argument('--remote-debugging-port=9222')
+        options.add_argument('--disable-background-timer-throttling')
+        options.add_argument('--disable-renderer-backgrounding')
+        options.page_load_strategy = "eager"  # Waits for DOMContentLoaded, not full resources
 
         service = ChromeService()
         driver = webdriver.Chrome(service=service, options=options)
         self.logger.info("Chrome WebDriver initialized with dedicated profile and popup suppression.")
+        return driver
+
+    def _setup_edge_driver(self, headless=False):
+        """Sets up Edge WebDriver."""
+        options = EdgeOptions()
+        if headless:
+            options.add_argument('--headless')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--window-size=1920,1080')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--disable-extensions')
+        options.page_load_strategy = "eager"  # Waits for DOMContentLoaded, not full resources
+
+        service = EdgeService()
+        driver = webdriver.Edge(service=service, options=options)
+        self.logger.info("Edge WebDriver initialized successfully.")
         return driver
 
     def _capture_allure_screenshot(self, request):
